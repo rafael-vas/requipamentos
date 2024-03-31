@@ -1,0 +1,39 @@
+.navbar .menu li {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .menu .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .875rem;
+    color: var(--light-blue);
+    font-weight: 500;
+    height: 100%;
+    padding: 0 1.675rem;
+    transition: all .1s ease-in;
+
+    text-transform: capitalize;
+    letter-spacing: .075rem;
+    font-size: 1rem;
+    font-weight: bold;
+    gap: .225rem;
+}
+
+.navbar .menu .link span {
+    @media screen and (max-width: 792px) {
+        display: none;
+    }
+}
+
+.navbar .menu .link.active {
+    background-color: #ccc;
+}
+
+.navbar .menu .link:hover {
+    background-color: var(--dark-orange);
+    color: var(--white);
+}
