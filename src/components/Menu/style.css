@@ -1,0 +1,17 @@
+.navbar {
+    border-bottom: 2px solid #d1d3d5;
+    background-color: #ebebeb;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* border-left: 4rem solid var(--light-blue); */
+    /* border-right: 4rem solid var(--light-blue); */
+}
