@@ -1,0 +1,57 @@
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    gap: 1rem;
+}
+
+/* .main .section .swiper {
+    margin: 0 6rem;
+} */
+
+.main .section .swiper .swiper-wrapper {
+    height: 320px;
+    @media screen and (max-width: 792px) {
+        height: 250px;
+    }
+
+    @media screen and (max-width: 400px) {
+        /* height: 180px; */
+    }
+
+}
+
+.main .section .swiper .swiper-button-prev::after,
+.main .section .swiper .swiper-button-next::after {
+    /* right: -1rem; */
+    background-color: var(--white);
+    color: var(--light-blue);
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.150);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .6rem .775rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+
+}
+
+.main .section .swiper .swiper-button-prev::after {
+    padding-right: .925rem;
+}
+.main .section .swiper .swiper-button-next::after {
+    padding-left: .925rem;
+}
+
+.main .section .swiper .swiper-pagination {
+    margin-top: 1rem;
+    position: static;
+    display: block;
+
+    /* display: none; */
+}
+
+span.swiper-pagination-bullet-active {
+    width: .825rem;
+    border-radius: 1rem;
+    transition: width .2s;
+}
