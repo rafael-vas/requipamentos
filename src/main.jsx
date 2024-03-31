@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import App from './App/index.jsx'
 
 // Radix Theme UI
 import '@radix-ui/themes/styles.css';
