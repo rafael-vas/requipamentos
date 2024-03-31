@@ -1,0 +1,25 @@
+
+.header .logo-link {
+    color: var(--white);
+    /* color: var(--light-orange); */
+    display: flex;
+    align-items: center;
+    /* width: 400px; */
+}
+
+.header .logo-link .logo-img {
+    max-width: 70px;
+}
+
+.header .logo-link .logo-txt {
+    font-weight: 300;
+    padding-bottom: .325rem;
+    font-weight: 400;
+
+}
+
+.header .logo-link .logo-txt .highlight {
+    color: var(--orange);
+    /* color: var(--white); */
+    font-weight: 500;
+}
