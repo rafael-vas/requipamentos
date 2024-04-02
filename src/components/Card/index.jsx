@@ -2,10 +2,12 @@ import "./style.css";
 
 import { Dialog, Button, Flex } from "@radix-ui/themes";
 
-import { InfoIcon, PackagePlusIcon, ShoppingCartIcon } from "lucide-react";
+import { InfoIcon, PackagePlusIcon } from "lucide-react";
 
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
+import { ToastMessage } from "../ToastMessage";
 
 export function Card({
   id,
@@ -15,34 +17,13 @@ export function Card({
   categoria,
   imgSrc,
   highlight,
-  onClick: handleClick = () => {},
+  handleAddCount,
 }) {
 
   // const notify = (itemName) => toast(`${itemName} foi adicionado ao carrinho`);
 
-  const Msg = (itemName, itemCode, itemImgSrc) => (
-    <div className="toast">
-      <Flex gap="1" align={"center"}>
-        <img className="toast-img" src={itemImgSrc} />
-        <div className="toast-info">
-          <p className="toast-name"><strong>{itemName}</strong></p>
-          <p className="toast-code">{itemCode}</p>
-        </div>
-      </Flex>
-      <Flex  >
-        <a className="toast-btn" href="/meu-carrinho">
-        <Button className="toast-btn" variant="solid" color="orange">
-          Ver Carrinho <ShoppingCartIcon size={14} />
-        </Button>
-        </a>
-      </Flex>
-      {/* <button>Retry</button> */}
-      {/* <button onClick={closeToast}>Close</button> */}
-    </div>
-  );
-
   const displayMsg = (name, code, imgSrc) => {
-    toast(() => Msg(name, code, imgSrc));
+    toast(() => ToastMessage(name, code, imgSrc));
     // toast(Msg) would also work
   };
 
@@ -64,8 +45,7 @@ export function Card({
             </Dialog.Trigger>
             <Button
               onClick={() => {
-                handleClick(id, name, code, imgSrc)
-                // notify(name, imgSrc)
+                handleAddCount(id, name, code, imgSrc)
                 displayMsg(name, code, imgSrc)
               }}
               className="add-btn"
