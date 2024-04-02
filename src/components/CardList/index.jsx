@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import { ToastContainer } from "react-toastify";
 
-export function CardList({ list, swiperOn, highlight, onClick }) {
+export function CardList({ list, swiperOn, highlight = false, handleAddCount }) {
   return (
     <>
       {swiperOn ? (
@@ -20,7 +20,7 @@ export function CardList({ list, swiperOn, highlight, onClick }) {
             return (
               <SwiperSlide key={id + code}>
                 <Card
-                  onClick={onClick}
+                  handleAddCount={handleAddCount}
                   highlight={highlight}
                   key={id}
                   id={id}
@@ -39,7 +39,7 @@ export function CardList({ list, swiperOn, highlight, onClick }) {
           {list.map(({ id, name, code, description, categoria, imgSrc }) => {
             return (
               <Card
-                onClick={onClick}
+                handleAddCount={handleAddCount}
                 key={id}
                 id={id}
                 name={name}
