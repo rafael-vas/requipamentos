@@ -129,34 +129,3 @@
 .card-list .card .flex-container {
     width: 100%;
 }
-
-.toast {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.toast .toast-img {
-    width: 32px;
-}
-
-.toast .toast-code {
-    font-size: .825rem;
-}
-
-.toast .toast-btn {
-    display: flex;
-    align-items: center;
-    width: 100%;
-}
-
-/* .Toastify__progress-bar--bg {
-    background: var(--toastify-color-progress-light);
-    background: linear-gradient(to right, #4cd964, #5ac8fa, #007aff, #34aadc, #5856d6, #ff2d55) !important;
-} */
-
-div.Toastify__progress-bar-theme--light {
-    background: var(--dark-orange);
-    /* background: linear-gradient(to right, #4cd964, #5ac8fa, #007aff, #34aadc, #5856d6, #ff2d55) !important; */
-    /* background: linear-gradient(to right, #b6cfff, var(--dark-blue)); */
-}
