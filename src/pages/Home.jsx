@@ -8,7 +8,6 @@ import { PageSection } from "../components/PageSection";
 import { CardList } from "../components/CardList";
 
 import { HomeIcon, Package, Phone } from "lucide-react";
-// import { Button } from "@radix-ui/themes";
 
 import expositorImg from "../assets/exemplo.jpeg";
 import balancaImg from "../assets/exemplo-2.png";
@@ -91,7 +90,7 @@ const cards = [
     },
 ]
 
-export default function Home({ count, onClick }) {
+export default function Home({ count, handleAddCount }) {
     return (
         <>
             {/* <Button onClick={()=> localStorage.clear()}>Limpar Dados</Button> */}
@@ -107,7 +106,7 @@ export default function Home({ count, onClick }) {
             <Main>
                 <PageHeader label="Em destaque" of="home" />
                 <PageSection>
-                    <CardList onClick={onClick} list={cards} swiperOn highlight />
+                    <CardList handleAddCount={handleAddCount} list={cards} swiperOn highlight />
                 </PageSection>
             </Main>
         </>
