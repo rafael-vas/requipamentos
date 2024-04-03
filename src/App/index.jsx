@@ -9,6 +9,7 @@ import Contato from "../pages/Contato";
 import Equipamentos from "../pages/Equipamentos";
 import NoPage from "../pages/NoPage";
 import MeuCarrinho from "../pages/MeuCarrinho";
+import Orcamento from "../pages/Orcamento";
 
 function App() {
 
@@ -44,17 +45,17 @@ function App() {
         <Routes>
           <Route
             index
-            element={<Home count={count} onClick={handleAddCount}/>}>
+            element={<Home count={count} handleAddCount={handleAddCount}/>}>
           </Route>
 
           <Route
             path="/home"
-            element={<Home count={count} onClick={handleAddCount}/>}>
+            element={<Home count={count} handleAddCount={handleAddCount}/>}>
           </Route>
 
           <Route
             path="/equipamentos"
-            element={<Equipamentos onClick={handleAddCount} count={count}/>}>
+            element={<Equipamentos handleAddCount={handleAddCount} count={count}/>}>
           </Route>
 
           <Route
@@ -65,6 +66,11 @@ function App() {
             path="/meu-carrinho"
             element={<MeuCarrinho count={count}
             setCount={setCount} info={info} setInfo={setInfo} />}>
+          </Route>
+
+          <Route
+            path="/orcamento"
+            element={<Orcamento count={count} info={info} />}>
           </Route>
 
           <Route
