@@ -49,7 +49,7 @@ export function Card({
                 displayMsg(name, code, imgSrc)
               }}
               className="add-btn"
-              color="blue"
+              color="green"
             >
               <PackagePlusIcon size={18} />
               <span>Adicionar</span>
