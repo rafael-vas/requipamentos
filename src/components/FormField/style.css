@@ -1,0 +1,19 @@
+.FormRoot .FormField.number {
+  position: relative;
+}
+
+.FormRoot .FormField.number::before {
+  content: "+5581";
+  font-size: 15px;
+  position: absolute;
+  bottom: .38rem;
+  left: .475rem;
+}
+
+.FormRoot .FormField .Input {
+    padding: 0 .475rem;
+}
+
+.FormRoot .FormField .Input.number {
+    padding-left: 3rem;
+}
