@@ -1,6 +1,9 @@
 .main .page-header {
     padding: 2rem 12rem;
     border-bottom: 1px solid #e8e8e8;
+    background: linear-gradient(to right, hsla(213, 100%, 12%, 0.100), hsla(213, 100%, 12%, 0.0100), rgba(255, 128, 0, 0.075) );
+    /* background: hsla(213, 100%, 12%, 0.050); */
+    color: var(--light-blue);
 
     @media screen and (max-width: 1024px) {
         padding: 2rem 6rem;
@@ -12,7 +15,13 @@
 }
 
 .main .page-header .title {
-    font-size: 2.325rem;
+    font-size: 2.125rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+.main .page-header .text {
+    letter-spacing: .05rem;
 }
 
 .main .page-header.home {
@@ -25,6 +34,7 @@
     width: fit-content;
     padding: 0;
     position: relative;
+    background: none;
 }
 
 .main .page-header.home::after {
@@ -40,5 +50,7 @@
 }
 
 .main .page-header.home .title {
+    text-transform: none;
+    letter-spacing: normal;
     font-size: 1.8rem;
 }

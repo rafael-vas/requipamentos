@@ -1,9 +1,10 @@
 import "./style.css";
 
-export function PageHeader({ label, of="" }) {
+export function PageHeader({ title, of="", text }) {
   return (
     <header className={`page-header ${of}`}>
-      <h2 className="title">{label}</h2>
+      <h2 className="title">{title}</h2>
+      <p className="text">{text}</p>
     </header>
   );
 }
