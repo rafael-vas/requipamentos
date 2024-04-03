@@ -1,0 +1,61 @@
+.main .success-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: rgb(0, 184, 18);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    animation: popUp .75s ease-in-out;
+
+    .success-title {
+        text-transform: uppercase;
+        font-size: 2.225rem;
+        letter-spacing: .075rem;
+        animation: changeColor 5s linear infinite;
+    }
+
+    .success-text {
+        font-weight: bold;
+        color: black;
+        margin: .2rem 0;
+        margin-bottom: 2.2rem;
+    }
+
+    .success-icon {
+        animation: changeColor 5s linear infinite;
+    }
+}
+
+@keyframes popUp {
+    from {
+        left: 45%;
+        opacity: 0;
+    }
+
+    to {
+        left: 50%;
+        right: auto;
+        opacity: 1;
+    }
+}
+
+@keyframes changeColor {
+    0% {
+        color: rgb(0, 184, 18);
+    }
+
+    50% {
+        color: #02609a;
+    }
+
+    100% {
+        color: rgb(0, 184, 18);
+    }
+}
