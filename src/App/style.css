@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&display=swap");
 
 :root {
-  --dark-blue: #04162c;
-  --light-blue: #02314f;
-  --dark-orange: #eb7524;
-  --orange: #ffa141;
-  --orange: #ffa84a;
-  --light-orange: #ffb861;
-  /* --white: #eee8e8; */
   --white: #f1f9fd;
+  --light-blue: #02314f;
+  --light-green: #30a46c;
+  --light-orange: #ffb861;
+  --blue: #004672;
+  --orange: #ffa84a;
+  --green: #2B9A66;
+  --dark-blue: #04162c;
+  --dark-green: #218358;
+  --dark-orange: #eb7524;
 }
 
 * {
@@ -49,7 +51,8 @@ button.rt-BaseButton {
 
 .main div.rt-Flex.btns {
   justify-content: space-between;
-  margin: 1rem 0;
+  /* margin: 1rem 0; */
+  margin-bottom: 1rem;
 }
 
 td.flex {
