@@ -21,64 +21,72 @@ const cards = [
     name: "Expositor",
     code: "EXPO0001",
     description: "Expositor mediano, potente e de boa qualidade.",
-    categoria: "Padaria",
+    category: "Padaria",
     imgSrc: expositorImg,
+    maker: "Teste"
   },
   {
     id: 2,
     name: "Balança",
     code: "BAL0001",
     description: "Expositor mediano, potente e de boa qualidade.",
-    categoria: "Padaria",
+    category: "Padaria",
     imgSrc: balancaImg,
+    maker: "Teste"
   },
   {
     id: 3,
     name: "Suqueiro",
     code: "SUQ0001",
     description: "Expositor mediano, potente e de boa qualidade.",
-    categoria: "Padaria",
+    category: "Padaria",
     imgSrc: suqueiroImg,
+    maker: "Teste"
   },
   {
     id: 4,
     name: "Liquidificador",
     code: "LIQ0001",
     description: "",
-    categoria: "Padaria",
+    category: "Padaria",
     imgSrc: liquidificadorImg,
+    maker: "Teste"
   },
   {
     id: 5,
     name: "Expositor Caro",
     code: "EXPO0002",
     description: "Expositor mediano, potente e de boa qualidade.",
-    categoria: "Padaria",
+    category: "Padaria",
     imgSrc: expositorCaroImg,
+    maker: "Teste"
   },
   {
     id: 6,
     name: "Balança",
     code: "BAL0002",
     description: "Expositor mediano, potente e de boa qualidade.",
-    categoria: "Padaria",
+    category: "Padaria",
     imgSrc: balancaImg,
+    maker: "Teste"
   },
   {
     id: 7,
     name: "Suqueiro",
     code: "SUQ0002",
     description: "Expositor mediano, potente e de boa qualidade.",
-    categoria: "Padaria",
+    category: "Padaria",
     imgSrc: suqueiroImg,
+    maker: "Teste"
   },
   {
     id: 8,
     name: "Liquidificador",
     code: "LIQ0002",
     description: "Expositor mediano, potente e de boa qualidade.",
-    categoria: "Padaria",
+    category: "Padaria",
     imgSrc: liquidificadorImg,
+    maker: "Teste"
   },
 ]
 
