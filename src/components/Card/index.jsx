@@ -14,8 +14,9 @@ export function Card({
   name,
   code,
   description,
-  categoria,
+  category,
   imgSrc,
+  maker,
   highlight,
   handleAddCount,
 }) {
@@ -56,23 +57,33 @@ export function Card({
             </Button>
           </Flex>
 
-          <Dialog.Content maxWidth="450px">
-            <Dialog.Title className="dialog-title">{name}</Dialog.Title>
+          <Dialog.Content className="dialog-content">
+            <Dialog.Title className="dialog-title">
+              {name}
+              <span className="dialog-code">{code}</span>
+            </Dialog.Title>
+              <img src={imgSrc} className="dialog-img" alt="imagem de um produto" />
+            <Dialog.Description className="dialog-txt-container" size="2" mt="4">
+              <p className="dialog-txt">
+                <strong>Descrição</strong>
+                {description}
+              </p>
+              <p className="dialog-txt">
+                <strong>Categoria</strong>
+                {category}
+              </p>
+              <p className="dialog-txt">
+                <strong>Fabricante</strong>
+                {maker}
+              </p>
 
-            <Dialog.Description className="dialog-txt" size="2" mb="4">
-              {description}
-            </Dialog.Description>
-            <Dialog.Description className="dialog-txt" size="2" mb="4">
-              {categoria}
             </Dialog.Description>
 
-            <Flex gap="3" mt="4" justify="end">
-              <Dialog.Close>
-                <Button variant="soft" color="gray">
-                  Fechar
-                </Button>
-              </Dialog.Close>
-            </Flex>
+            <Dialog.Close className="dialog-close">
+              <Button variant="solid" color="gray">
+                Fechar
+              </Button>
+            </Dialog.Close>
           </Dialog.Content>
         </Dialog.Root>
       </li>

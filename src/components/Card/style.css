@@ -95,6 +95,11 @@
     cursor: pointer;
     flex: 1;
 
+    font-size: .625rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+
     @media screen and (max-width: 900px) {
         flex: none;
     }
@@ -105,6 +110,11 @@
     /* width: 100%; */
     cursor: pointer;
     flex: 1;
+
+    font-size: .625rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .075rem;
 
     @media screen and (max-width: 900px) {
         flex: 1;
@@ -128,4 +138,65 @@
 .swiper-wrapper .card .flex-container,
 .card-list .card .flex-container {
     width: 100%;
+}
+
+div.dialog-content {
+    max-width: 36.25rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+.dialog-content .dialog-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.225rem;
+}
+
+.dialog-content .dialog-title .dialog-code {
+    margin-top: -.525rem;
+    text-transform: uppercase;
+    font-size: .625rem;
+    opacity: .4;
+    letter-spacing: .05rem;
+    text-shadow: 0 0 .025rem rgba(0, 0, 0, 0.25);
+}
+
+.dialog-content .dialog-img {
+    width: 100%;
+    max-width: 14.225rem;
+    padding: 1rem;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.050);
+    border-radius: .625rem;
+}
+
+.dialog-content .dialog-close {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+.dialog-content .dialog-txt-container {
+    display: flex;
+    flex-direction: column;
+    gap: .875rem;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.dialog-content .dialog-txt-container .dialog-txt {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+}
+
+.dialog-content .dialog-txt-container .dialog-txt strong {
+    text-transform: uppercase;
+    font-size: .625rem;
+    opacity: .4;
+    letter-spacing: .05rem;
+    text-shadow: 0 0 .025rem rgba(0, 0, 0, 0.25);
 }
