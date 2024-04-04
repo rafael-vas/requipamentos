@@ -1,3 +1,9 @@
+.FormRoot .FormField {
+  display: flex;
+  flex-direction: column;
+  gap: .625rem;
+}
+
 .FormRoot .FormField.number {
   position: relative;
 }
@@ -6,14 +12,73 @@
   content: "+5581";
   font-size: 15px;
   position: absolute;
-  bottom: .38rem;
-  left: .475rem;
+  bottom: 0.38rem;
+  left: 0.475rem;
 }
 
 .FormRoot .FormField .Input {
-    padding: 0 .475rem;
+  padding: 0 0.475rem;
 }
 
 .FormRoot .FormField .Input.number {
-    padding-left: 3rem;
+  padding-left: 3rem;
+}
+
+.FormRoot .FormField .FormLabel {
+  text-transform: uppercase;
+  font-size: 0.625rem;
+  letter-spacing: 0.05rem;
+  font-weight: bold;
+  opacity: 1;
+}
+
+.FormRoot .FormLabel[data-invalid] {
+  color: rgb(225, 34, 34);
+}
+.FormRoot .FormLabel[data-valid] {
+  color: rgb(20, 176, 20);
+}
+
+
+.FormRoot .FormMessage {
+  font-size: .575rem;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: .05rem;
+  font-weight: bold;
+  opacity: .5;
+}
+
+.FormRoot .Input,
+.FormRoot .Textarea {
+  width: 100%;
+  border-radius: 4px;
+  font-size: 15px;
+  color:#000;
+  border: .1rem solid #808080;
+  background-color: #e9e9e9;
+  box-shadow: 0 0 0 1px #fff;
+}
+.FormRoot .Input:hover,
+.FormRoot .Textarea:hover {
+  border-color: var(--dark-green);
+}
+.FormRoot .Input:focus,
+.FormRoot .Textarea:focus {
+  box-shadow: 0 0 0 1px var(--dark-green);
+}
+.FormRoot .Input::selection,
+.FormRoot .Textarea::selection {
+  background-color: #b2b2b2;
+}
+
+.FormRoot .Input {
+  padding: 0 10px;
+  height: 35px;
+  line-height: 1;
+}
+
+.FormRoot .Textarea {
+  resize: none;
+  padding: 10px;
 }
