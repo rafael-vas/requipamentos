@@ -20,7 +20,7 @@ export function ToastMessage(itemName, itemCode, itemImgSrc) {
       </Flex>
       <Flex>
         <a className="toast-link" href="/meu-carrinho">
-          <Button className="toast-btn" variant="solid" color="orange">
+          <Button className="toast-btn" variant="solid" color="green">
             Ver Carrinho <ShoppingCartIcon className="toast-icon" size={16} />
           </Button>
         </a>

@@ -46,7 +46,8 @@
 } */
 
 div.Toastify__progress-bar-theme--light {
-    background: var(--dark-orange);
+    /* background: var(--dark-orange); */
+    background: var(--dark-green);
     /* background: linear-gradient(to right, #4cd964, #5ac8fa, #007aff, #34aadc, #5856d6, #ff2d55) !important; */
     /* background: linear-gradient(to right, #b6cfff, var(--dark-blue)); */
 }
