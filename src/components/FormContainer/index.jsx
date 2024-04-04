@@ -8,7 +8,7 @@ export function FormContainer({ children, submitLabel, onSubmit, isLoading }) {
     <Form.Root onSubmit={onSubmit} className="FormRoot">
       {children}
       <Form.Submit asChild>
-        <button disabled={isLoading} className="Button" style={{ marginTop: 10 }}>
+        <button disabled={isLoading} className="Button">
           {isLoading ? <LoaderCircle className="loader-icon" /> : submitLabel }
         </button>
       </Form.Submit>
