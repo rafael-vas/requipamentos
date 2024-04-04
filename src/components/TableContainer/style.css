@@ -1,0 +1,13 @@
+.rt-TableRootTable {
+
+    .product-code {
+        opacity: .65;
+        font-size: .725rem;
+        letter-spacing: .0225rem;
+    }
+
+    .product-code::before {
+        content: "Código: ";
+    }
+
+}

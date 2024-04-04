@@ -16,7 +16,7 @@ export function CardList({ list, swiperOn, highlight = false, handleAddCount }) 
           pagination={{ clickable: true }}
           navigation
         >
-          {list.map(({ id, name, code, description, categoria, imgSrc }) => {
+          {list.map(({ id, name, code, description, category, imgSrc, maker }) => {
             return (
               <SwiperSlide key={id + code}>
                 <Card
@@ -27,8 +27,9 @@ export function CardList({ list, swiperOn, highlight = false, handleAddCount }) 
                   name={name}
                   code={code}
                   description={description}
-                  categoria={categoria}
+                  category={category}
                   imgSrc={imgSrc}
+                  maker={maker}
                 />
               </SwiperSlide>
             );
@@ -36,7 +37,7 @@ export function CardList({ list, swiperOn, highlight = false, handleAddCount }) 
         </Swiper>
       ) : (
         <ul className="card-list">
-          {list.map(({ id, name, code, description, categoria, imgSrc }) => {
+          {list.map(({ id, name, code, description, category, imgSrc, maker }) => {
             return (
               <Card
                 handleAddCount={handleAddCount}
@@ -45,8 +46,9 @@ export function CardList({ list, swiperOn, highlight = false, handleAddCount }) 
                 name={name}
                 code={code}
                 description={description}
-                categoria={categoria}
+                category={category}
                 imgSrc={imgSrc}
+                maker={maker}
               />
             );
           })}

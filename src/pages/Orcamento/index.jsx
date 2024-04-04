@@ -160,13 +160,14 @@ export default function Orcamento({ count, info }) {
           <a href="/meu-carrinho">
               <Button className="back-btn" variant="soft" color="gray">
               <ArrowBigLeftDash size={18} />
-              <span>Voltar para o Carrinho</span>
+              <span>Voltar</span>
             </Button>
           </a>
+
           <FormContainer
             hasError={error}
             isLoading={loading}
-            submitLabel="Continuar"
+            submitLabel="ENVIAR ORÇAMENTO"
             onSubmit={async () =>
               await submitForm(event, info, userName, userNumber, userEmail)
             }

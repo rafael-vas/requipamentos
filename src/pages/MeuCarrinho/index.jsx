@@ -68,11 +68,25 @@ export default function MeuCarrinho({ count, setCount, info, setInfo }) {
       <Main>
         <PageHeader title="Meu Carrinho" text={"Veja os itens selecionados no seu carrinho e solicite um orçamento!"} />
         <PageSection>
-          <h3 className="subtitle">
+          {/* <h3 className="subtitle">
             Total de itens no carrinho: {count}
-            {/* {console.log(info)} */}
-          </h3>
-
+          </h3> */}
+          {count > 0 && (
+            <Flex className="btns">
+            <a href="/home">
+              <Button className="back-btn" variant="soft" color="gray">
+                <ArrowBigLeftDash size={"1.1rem"}/>
+                <span>Voltar</span>
+              </Button>
+            </a>
+            <a href="/orcamento">
+              <Button className="next-btn" color="green">
+                <span>Avançar Orçamento</span>
+                <ArrowBigRightDash size={"1.1rem"} />
+              </Button>
+            </a>
+          </Flex>
+          )}
           <TableContainer>
               {info
                 .sort((a, b) => a.id - b.id)
@@ -118,23 +132,6 @@ export default function MeuCarrinho({ count, setCount, info, setInfo }) {
                   );
                 })}
             </TableContainer>
-
-          {count > 0 && (
-            <Flex className="btns">
-            <a href="/home">
-              <Button className="back-btn" variant="soft" color="gray">
-                <ArrowBigLeftDash size={18}/>
-                <span>Voltar</span>
-              </Button>
-            </a>
-            <a href="/orcamento">
-              <Button className="next-btn" color="gray">
-                <span>Avançar Orçamento</span>
-                <ArrowBigRightDash size={"1.1rem"} />
-              </Button>
-            </a>
-          </Flex>
-          )}
 
         </PageSection>
       </Main>
