@@ -1,9 +1,12 @@
+import "./style.css";
+
 import { Header } from "../../components/Header";
 import { Menu } from "../../components/Menu";
 import { Main } from "../../components/Main";
 import { NavLink } from "../../components/NavLink";
 
 import { Home, Package, Phone, Frown } from "lucide-react";
+import { Button } from "@radix-ui/themes"
 
 export default function NoPage() {
   return (
@@ -15,10 +18,15 @@ export default function NoPage() {
         <NavLink icon={<Phone size={16} />} label="contato" />
       </Menu>
       <Main>
-        <h2 className="not-found">
-            <Frown size={64}/>
-            Página não encontrada.
-        </h2>
+        <div className="not-found-container">
+            <Frown className="not-found-icon" size={64}/>
+            <h2 className="not-found-title">Página não encontrada.</h2>
+            <a href="/home">
+              <Button className="not-found-btn" variant="soft" color="blue">
+                Voltar para a Home
+              </Button>
+            </a>
+        </div>
       </Main>
     </>
   );
