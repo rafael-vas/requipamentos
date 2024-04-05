@@ -86,7 +86,17 @@
 
 .swiper-wrapper .card .card-name,
 .card-list .card .card-name {
+    margin-top: .225rem;
     font-weight: bold;
+}
+
+.swiper-wrapper .card .card-code,
+.card-list .card .card-code {
+    font-size: .625rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: .5;
+    letter-spacing: .05rem;
 }
 
 .swiper-wrapper .card .info-btn,
