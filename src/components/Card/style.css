@@ -67,6 +67,8 @@
     max-height: 190px;
     max-width: 220px;
 
+    transition: all .15s ease-in-out;
+
     @media screen and (max-width: 900px) {
         max-height: 160px;
 
@@ -74,6 +76,11 @@
             max-height: 110px;
         }
     }
+}
+
+.swiper-wrapper .card .card-img:hover,
+.card-list .card .card-img:hover {
+    transform: scale(1.05);
 }
 
 .swiper-wrapper .card .card-info,
