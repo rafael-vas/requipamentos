@@ -2,7 +2,7 @@ import "./style.css";
 
 import { Dialog, Button, Flex } from "@radix-ui/themes";
 
-import { InfoIcon, PackagePlusIcon } from "lucide-react";
+import { InfoIcon, PackagePlusIcon, XIcon } from "lucide-react";
 
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -80,9 +80,7 @@ export function Card({
             </Dialog.Description>
 
             <Dialog.Close className="dialog-close">
-              <Button variant="solid" color="gray">
-                Fechar
-              </Button>
+              <XIcon size={24} color="gray" />
             </Dialog.Close>
           </Dialog.Content>
         </Dialog.Root>
