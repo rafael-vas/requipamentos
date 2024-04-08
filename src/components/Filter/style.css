@@ -1,7 +1,8 @@
 .filter {
     width: 100%;
-    max-width: 18rem;
-    color: var(--dark-orange);
+    max-width: 14.225rem;
+    /* color: var(--dark-orange); */
+    color: var(--black);
     /* background-color: #ccc; */
 
     .filter-title {
@@ -11,7 +12,7 @@
     .filter-list {
         display: flex;
         flex-direction: column;
-        /* gap: .375rem; */
+        gap: .375rem;
         padding-top: 1rem;
     }
 
@@ -24,12 +25,12 @@
         padding-left: .5rem;
         border-radius: .425rem;
         cursor: pointer;
-        /* background-color: var(--light-orange); */
+        background-color: #dbdbdb;
     }
 
     .filter-item:hover {
         color: var(--white);
-        background-color: var(--dark-orange);
+        background-color: var(--light-blue);
     }
 }
 
