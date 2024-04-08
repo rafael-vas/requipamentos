@@ -1,0 +1,4 @@
+.main .product.section {
+    display: flex;
+    gap: 2rem;
+}

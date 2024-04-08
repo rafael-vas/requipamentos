@@ -1,3 +1,5 @@
+import "./style.css"
+
 import { Header } from "../../components/Header";
 import { Menu } from "../../components/Menu";
 import { NavLink } from "../../components/NavLink";
@@ -5,6 +7,7 @@ import { Main } from "../../components/Main";
 import { PageHeader } from "../../components/PageHeader";
 import { PageSection } from "../../components/PageSection";
 import { CardList } from "../../components/CardList";
+import { Filter } from "../../components/Filter";
 
 import { Home, Package, Phone } from "lucide-react";
 // import { Button } from "@radix-ui/themes";
@@ -103,7 +106,8 @@ export default function Equipamentos({ count, handleAddCount }) {
 
       <Main>
           <PageHeader title="Equipamentos" text={"Aqui você encontra os melhores equipamentos para o seu estabelecimento!"} />
-          <PageSection>
+          <PageSection name="product">
+              <Filter />
               <CardList handleAddCount={handleAddCount} list={cards} />
           </PageSection>
       </Main>
