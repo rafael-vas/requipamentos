@@ -1,6 +1,6 @@
 .filter {
     width: 100%;
-    max-width: 14.225rem;
+    max-width: 12.225rem;
     /* color: var(--dark-orange); */
     color: var(--black);
     /* background-color: #ccc; */
@@ -12,25 +12,32 @@
     .filter-list {
         display: flex;
         flex-direction: column;
-        gap: .375rem;
+        gap: .525rem;
         padding-top: 1rem;
     }
 
     .filter-item {
-        font-size: .875rem;
+        font-size: .825rem;
         text-transform: uppercase;
         font-weight: bold;
         letter-spacing: .05rem;
-        padding: .375rem 0;
-        padding-left: .5rem;
-        border-radius: .425rem;
+        padding: .625rem;
+        border-radius: .225rem;
+        border-bottom-right-radius: 2rem;
         cursor: pointer;
         background-color: #dbdbdb;
+        opacity: .625;
+    }
+
+    .filter-item.active {
+        border-right: .625rem solid var(--light-blue);
+        opacity: 1;
     }
 
     .filter-item:hover {
         color: var(--white);
         background-color: var(--light-blue);
+        opacity: 1;
     }
 }
 
