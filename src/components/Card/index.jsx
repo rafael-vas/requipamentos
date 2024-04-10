@@ -30,7 +30,10 @@ export function Card({
 
   return (
     <>
-      <li className={`card${highlight ? " highlight" : ""}`}>
+      <li
+        className={`card${highlight ? " highlight" : ""}`}
+        data-category={category}
+      >
         <img className="card-img" src={imgSrc} alt="foto de equipamento" />
         <div className="card-info">
           <p className="card-name">{name}</p>
