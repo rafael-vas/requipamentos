@@ -24,76 +24,77 @@ const cards = [
     name: "Expositor",
     code: "EXPO0001",
     description: "Expositor mediano, potente e de boa qualidade.",
-    category: "Padaria",
+    category: "padaria",
     imgSrc: expositorImg,
-    maker: "Teste"
+    maker: "Teste",
   },
   {
     id: 2,
     name: "Balança",
     code: "BAL0001",
     description: "Expositor mediano, potente e de boa qualidade.",
-    category: "Padaria",
+    category: "acougue",
     imgSrc: balancaImg,
-    maker: "Teste"
+    maker: "Teste",
   },
   {
     id: 3,
     name: "Suqueiro",
     code: "SUQ0001",
     description: "Expositor mediano, potente e de boa qualidade.",
-    category: "Padaria",
+    category: "restaurante",
     imgSrc: suqueiroImg,
-    maker: "Teste"
+    maker: "Teste",
   },
   {
     id: 4,
     name: "Liquidificador",
     code: "LIQ0001",
     description: "",
-    category: "Padaria",
+    category: "sorveteria",
     imgSrc: liquidificadorImg,
-    maker: "Teste"
+    maker: "Teste",
   },
   {
     id: 5,
     name: "Expositor Caro",
     code: "EXPO0002",
     description: "Expositor mediano, potente e de boa qualidade.",
-    category: "Padaria",
+    category: "padaria",
     imgSrc: expositorCaroImg,
-    maker: "Teste"
+    maker: "Teste",
   },
   {
     id: 6,
     name: "Balança",
     code: "BAL0002",
     description: "Expositor mediano, potente e de boa qualidade.",
-    category: "Padaria",
+    category: "acougue",
     imgSrc: balancaImg,
-    maker: "Teste"
+    maker: "Teste",
   },
   {
     id: 7,
     name: "Suqueiro",
     code: "SUQ0002",
     description: "Expositor mediano, potente e de boa qualidade.",
-    category: "Padaria",
+    category: "sorveteria",
     imgSrc: suqueiroImg,
-    maker: "Teste"
+    maker: "Teste",
   },
   {
     id: 8,
-    name: "Liquidificador",
+    name: "Liquidificador Específico",
     code: "LIQ0002",
-    description: "Expositor mediano, potente e de boa qualidade.",
-    category: "Padaria",
+    description: "Liquidificador potente e de boa qualidade (específico para mercado).",
+    category: "supermercado",
     imgSrc: liquidificadorImg,
-    maker: "Teste"
+    maker: "Teste",
   },
 ]
 
 export default function Equipamentos({ count, handleAddCount }) {
+
   return (
     <>
       {/* <Button onClick={()=> localStorage.clear()}>Limpar Dados</Button> */}
