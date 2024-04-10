@@ -10,17 +10,13 @@
     border-radius: .325rem;
     /* max-width: 220px; */
     position: relative;
+    transition: all .225s ease-in-out;
 }
 
 .card-list .card {
     flex: 1 0 130px;
     flex-grow: 0;
 }
-
-/* .swiper-wrapper .card:hover,
-.card-list .card:hover {
-    box-shadow: 0 0 1rem black;
-} */
 
 .swiper-wrapper .card.highlight,
 .card-list .card.highlight {
@@ -216,4 +212,13 @@ div.dialog-content {
     opacity: .4;
     letter-spacing: .05rem;
     text-shadow: 0 0 .025rem rgba(0, 0, 0, 0.25);
+}
+
+.card-list .card.hidden {
+    visibility: hidden;
+    max-height: 0;
+    max-width: 0;
+    opacity: 0;
+    position: absolute;
+    transition: none;
 }
