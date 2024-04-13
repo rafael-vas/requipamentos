@@ -73,7 +73,9 @@ export function Card({
               </p>
               <p className="dialog-txt">
                 <strong>Categoria</strong>
-                {category}
+                <span className="dialog-category">
+                  {category}
+                </span>
               </p>
               <p className="dialog-txt">
                 <strong>Fabricante</strong>
