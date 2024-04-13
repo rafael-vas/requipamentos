@@ -50,7 +50,7 @@ const cards = [
     id: 4,
     name: "Liquidificador",
     code: "LIQ0001",
-    description: "",
+    description: "Liquidificador mediano, potente e de boa qualidade.",
     category: "sorveteria",
     imgSrc: liquidificadorImg,
     maker: "Teste",
