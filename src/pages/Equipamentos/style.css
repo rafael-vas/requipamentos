@@ -1,4 +1,8 @@
 .main .product.section {
     display: flex;
     gap: 5.225rem;
+
+    @media screen and (max-width: 425px) {
+        flex-direction: column;
+    }
 }

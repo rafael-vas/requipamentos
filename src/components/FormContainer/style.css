@@ -36,6 +36,10 @@
   color: #fff;
   cursor: pointer;
   margin-top: 1.4rem;
+
+  @media screen and (max-width: 425px) {
+    font-size: .85rem;
+  }
 }
 .FormRoot .Button:hover {
   background-color: var(--light-green);

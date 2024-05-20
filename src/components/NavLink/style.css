@@ -29,6 +29,18 @@
     }
 }
 
+.navbar .menu .link svg {
+    @media screen and (max-width: 792px) {
+        width: 1.425rem;
+        height: 1.425rem;
+    }
+
+    @media screen and (max-width: 425px) {
+        width: 1.625rem;
+        height: 1.625rem;
+    }
+}
+
 .navbar .menu .link.active {
     background-color: #ccc;
 }

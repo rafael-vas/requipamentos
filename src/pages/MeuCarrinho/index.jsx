@@ -1,3 +1,5 @@
+import "./style.css"
+
 import { useEffect } from "react";
 
 import { Header } from "../../components/Header";
@@ -117,7 +119,7 @@ export default function MeuCarrinho({ count, setCount, info, setInfo }) {
                             justify={"between"}
                             align={"center"}
                           >
-                            {maker}
+                            <span className="maker">{maker}</span>
                             <Button
                               onClick={() => deleteItem(id, i)}
                               className="delete-btn"

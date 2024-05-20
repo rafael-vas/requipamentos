@@ -12,7 +12,7 @@ export function TableContainer({ tableHeaders = cartTableHeaders, children }) {
           {tableHeaders.map((tableHeader, i) => {
             return (
               <Table.ColumnHeaderCell key={i + tableHeader}>
-                {tableHeader}
+                <span className="table-header-text">{tableHeader}</span>
               </Table.ColumnHeaderCell>
             );
           })}

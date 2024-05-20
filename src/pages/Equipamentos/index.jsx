@@ -10,7 +10,7 @@ import { CardList } from "../../components/CardList";
 import { Filter } from "../../components/Filter";
 
 import { Home, Package, Phone } from "lucide-react";
-import { Button } from "@radix-ui/themes";
+// import { Button } from "@radix-ui/themes";
 
 import cards from './products.json';
 

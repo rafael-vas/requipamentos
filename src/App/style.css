@@ -13,6 +13,20 @@
   --dark-orange: #eb7524;
 }
 
+html {
+  @media screen and (max-width: 768px) {
+    font-size: 87.725%;
+  }
+
+  @media screen and (max-width: 425px) {
+    font-size: 75.225%;
+  }
+
+  @media screen and (max-width: 320px) {
+    font-size: 70.225%;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;

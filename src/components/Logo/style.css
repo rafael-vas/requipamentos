@@ -8,10 +8,11 @@
 }
 
 .header .logo-link .logo-img {
-    max-width: 70px;
+    max-width: 4.375rem; /* 70px */
 }
 
 .header .logo-link .logo-txt {
+    font-size: 2rem;
     font-weight: 300;
     padding-bottom: .325rem;
     font-weight: 400;

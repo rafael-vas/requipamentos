@@ -10,18 +10,43 @@
 
 .FormRoot .FormField.number::before {
   content: "+5581";
-  font-size: 15px;
   position: absolute;
   bottom: 0.38rem;
   left: 0.475rem;
+  font-size: .925rem;
+}
+
+@media screen and (max-width: 768px) {
+  .FormRoot .FormField.number::before {
+    bottom: .525rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .FormRoot .FormField.number::before {
+    font-size: 1.125rem;
+    bottom: .625rem;
+  }
 }
 
 .FormRoot .FormField .Input {
   padding: 0 0.475rem;
+  font-size: .925rem;
+
+  @media screen and (max-width: 425px) {
+    font-size: 1.125rem;
+  }
 }
 
 .FormRoot .FormField .Input.number {
   padding-left: 3rem;
+}
+
+
+@media screen and (max-width: 425px) {
+  .FormRoot .FormField .Input.number {
+    padding-left: 3.425rem;
+  }
 }
 
 .FormRoot .FormField .FormLabel {
@@ -53,7 +78,6 @@
 .FormRoot .Textarea {
   width: 100%;
   border-radius: 4px;
-  font-size: 15px;
   color:#000;
   border: .1rem solid #808080;
   background-color: #e9e9e9;

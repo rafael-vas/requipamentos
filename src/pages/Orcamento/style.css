@@ -1,0 +1,12 @@
+.main .section .back-btn svg {
+    @media screen and (max-width: 425px) {
+        width: 1.625rem;
+        height: 1.625rem;
+    }
+}
+
+.main .section .back-btn span {
+    @media screen and (max-width: 425px) {
+        display: none;
+    }
+}
