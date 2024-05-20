@@ -90,12 +90,13 @@ export default function MeuCarrinho({ count, setCount, info, setInfo }) {
           <TableContainer>
               {info
                 .sort((a, b) => a.id - b.id)
-                .map(({ id, name, code, maker = "Não informado", imgSrc, quantity = 1 }, i) => {
+                .map(({ id, name, description, code, maker = "Não informado", imgSrc, quantity = 1 }, i) => {
                   return (
                     id && (
                       <Table.Row key={i + id + code}>
                         <TableRowHeader
                           name={name}
+                          description={description}
                           code={code}
                           imgSrc={imgSrc}
                         />
