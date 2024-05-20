@@ -1,0 +1,606 @@
+[
+
+    {
+        "id": 1,
+        "name": "Gôndola Canto",
+        "code": "GF0001",
+        "description": "Gôndola Farmácia de canto preta 2,02m",
+        "category": "farmacia",
+        "imgSrc": "./products/1.jpg",
+        "maker": "Amapá"
+    },
+
+    {
+        "id": 2,
+        "name": "Gôndola Parede",
+        "code": "GF0002",
+        "description": "Gôndola Farmácia continuação de parede 2,02m",
+        "category": "farmacia",
+        "imgSrc": "./products/2.jpg",
+        "maker": "Amapá",
+        "highlight": true
+    },
+
+    {
+        "id": 3,
+        "name": "Gôndola Parede",
+        "code": "GF0003",
+        "description": "Gôndola Farmácia continuação de parede preta 2,02m",
+        "category": "farmacia",
+        "imgSrc": "./products/3.jpg",
+        "maker": "Amapá"
+    },
+
+    {
+        "id": 4,
+        "name": "Gôndola Canto",
+        "code": "GF0004",
+        "description": "Gôndola Farmácia de Canto 2,02m",
+        "category": "farmacia",
+        "imgSrc": "./products/4.jpg",
+        "maker": "Amapá"
+    },
+
+    {
+        "id": 5,
+        "name": "Gôndola Centro",
+        "code": "GF0005",
+        "description": "Gôndola Farmácia inicial centro 1,37m ",
+        "category": "farmacia",
+        "imgSrc": "./products/5.jpg",
+        "maker": "Amapá"
+    },
+
+    {
+        "id": 6,
+        "name": "Gôndola Parede",
+        "code": "GF0006",
+        "description": "Gôndola Farmácia inicial parede 2,02m",
+        "category": "farmacia",
+        "imgSrc": "./products/6.jpg",
+        "maker": "Amapá"
+    },
+
+    {
+        "id": 7,
+        "name": "Gôndola Ponta",
+        "code": "GF0007",
+        "description": "Gôndola Farmácia Ponta preta 1,37m",
+        "category": "farmacia",
+        "imgSrc": "./products/7.jpg",
+        "maker": "Amapá"
+    },
+
+    {
+        "id": 8,
+        "name": "Gôndola Ponta",
+        "code": "GF0008",
+        "description": "Gôndola Farmácia Ponta 1,37m",
+        "category": "farmacia",
+        "imgSrc": "./products/8.jpg",
+        "maker": "Amapá"
+    },
+
+    {
+        "id": 9,
+        "name": "Gôndola Centro",
+        "code": "GS0009",
+        "description": "Gôndola continuação centro 1,70m",
+        "category": "supermercado",
+        "imgSrc": "./products/9.jpg",
+        "maker": "Amapá"
+    },
+
+    {
+        "id": 10,
+        "name": "Gôndola Centro",
+        "code": "GS0010",
+        "description": "Gôndola continuação centro preta 1,70m",
+        "category": "supermercado",
+        "imgSrc": "./products/10.jpg",
+        "maker": "Amapá"
+    },
+
+    {
+        "id": 11,
+        "name": "Gôndola Parede",
+        "code": "GF0011",
+        "description": "Gôndola Farmácia inicial parede preta 2,02m",
+        "category": "farmacia",
+        "imgSrc": "./products/11.jpg",
+        "maker": "Amapá"
+    },
+
+    {
+        "id": 12,
+        "name": "Gôndola Centro",
+        "code": "GF0012",
+        "description": "Gôndola Farmácia continuação centro preta 1,37m",
+        "category": "farmacia",
+        "imgSrc": "./products/12.jpg",
+        "maker": "Amapá"
+    },
+
+    {
+        "id": 13,
+        "name": "Gôndola Centro",
+        "code": "GF0013",
+        "description": "Gôndola Farmácia inicial centro preta 1,37m",
+        "category": "farmacia",
+        "imgSrc": "./products/13.jpg",
+        "maker": "Amapá"
+    },
+
+    {
+        "id": 14,
+        "name": "Gôndola Centro",
+        "code": "GS0014",
+        "description": "Gôndola inicial centro 1,70m",
+        "category": "supermercado",
+        "imgSrc": "./products/14.jpg",
+        "maker": "Amapá"
+    },
+
+    {
+        "id": 15,
+        "name": "Gôndola Centro",
+        "code": "GS0015",
+        "description": "Gôndola inicial centro preta 1,70m",
+        "category": "supermercado",
+        "imgSrc": "./products/15.jpg",
+        "maker": "Amapá"
+    },
+
+    {
+        "id": 16,
+        "name": "Gôndola Parede",
+        "code": "GS0016",
+        "description": "Gôndola continuação parede preta 1,70m ",
+        "category": "supermercado",
+        "imgSrc": "./products/16.jpg",
+        "maker": "Amapá"
+    },
+
+    {
+        "id": 17,
+        "name": "Gôndola Parede",
+        "code": "GS0017",
+        "description": "Gôndola inicial parede preta 1,70m",
+        "category": "supermercado",
+        "imgSrc": "./products/17.jpg",
+        "maker": "Amapá"
+    },
+
+    {
+        "id": 18,
+        "name": "Gôndola Parede",
+        "code": "GS0018",
+        "description": "Gôndola continuação parede 1,70m",
+        "category": "supermercado",
+        "imgSrc": "./products/18.jpg",
+        "maker": "Amapá"
+    },
+
+    {
+        "id": 19,
+        "name": "Gôndola Parede",
+        "code": "GS0019",
+        "description": "Gôndola inicial parede 1,70m",
+        "category": "supermercado",
+        "imgSrc": "./products/19.jpg",
+        "maker": "Amapá"
+    },
+
+    {
+        "id": 20,
+        "name": "Gôndola Ponta",
+        "code": "GS0020",
+        "description": "Gôndola ponta 1,70m",
+        "category": "supermercado",
+        "imgSrc": "./products/20.jpg",
+        "maker": "Amapá"
+    },
+
+    {
+        "id": 21,
+        "name": "Gôndola Ponta",
+        "code": "GS0021",
+        "description": "Gôndola ponta preta 1,70m ",
+        "category": "supermercado",
+        "imgSrc": "./products/21.jpg",
+        "maker": "Amapá"
+    },
+
+    {
+        "id": 22,
+        "name": "Ralador de Milho e Mandioca",
+        "code": "BM-04",
+        "description": "Ralador de Milho e Mandioca",
+        "category": "padaria",
+        "imgSrc": "./products/22.png",
+        "maker": "Bermar"
+    },
+
+    {
+        "id": 23,
+        "name": "Cortador de Frios Automático ",
+        "code": "BM-18",
+        "description": "Cortador de Frios automático lam 300",
+        "category": "supermercado",
+        "imgSrc": "./products/23.png",
+        "maker": "Bermar"
+    },
+
+    {
+        "id": 24,
+        "name": "Moedor de Carne Bc22",
+        "code": "BM-20",
+        "description": "Moedor de Carne BC22 inox",
+        "category": "supermercado",
+        "imgSrc": "./products/24.png",
+        "maker": "Bermar"
+    },
+
+    {
+        "id": 25,
+        "name": "Serra Fita de Bancada ",
+        "code": "BM-25",
+        "description": "Serra Fita de Bancada inox 1,74",
+        "category": "acougue",
+        "imgSrc": "./products/25.png",
+        "maker": "Bermar"
+    },
+
+    {
+        "id": 26,
+        "name": "Amaciador de Bife inox",
+        "code": "BM-34",
+        "description": "Amaciador de Bife inox",
+        "category": "acougue",
+        "imgSrc": "./products/26.png",
+        "maker": "Bermar"
+    },
+
+    {
+        "id": 27,
+        "name": "Serra Fita",
+        "code": "BM_38",
+        "description": "Serra Fita de coluna inox 2,55",
+        "category": "acougue",
+        "imgSrc": "./products/27.png",
+        "maker": "Bermar"
+    },
+
+    {
+        "id": 28,
+        "name": "Ralador de Côco e Queijo",
+        "code": "BM-92",
+        "description": "Ralador de côco e queijo",
+        "category": "padaria",
+        "imgSrc": "./products/28.png",
+        "maker": "Bermar"
+    },
+
+    {
+        "id": 29,
+        "name": "Misturador de Carnes",
+        "code": "BM-99",
+        "description": "Misturador de Carnes 60L",
+        "category": "acougue",
+        "imgSrc": "./products/29.png",
+        "maker": "Bermar"
+    },
+
+    {
+        "id": 30,
+        "name": "Processador de Alimentos inox",
+        "code": "BM-125",
+        "description": "Processador de alimentos 7 discos",
+        "category": "restaurante",
+        "imgSrc": "./products/30.png",
+        "maker": "Bermar"
+    },
+
+    {
+        "id": 31,
+        "name": "Ensacadeira de Linguiça",
+        "code": "BM-126",
+        "description": "Ensacadeira de linguiça 8L",
+        "category": "acougue",
+        "imgSrc": "./products/31.png",
+        "maker": "Bermar"
+    },
+
+    {
+        "id": 32,
+        "name": "Moedor de Carne Bc10",
+        "code": "BM-147",
+        "description": "Moedor de Carne BC22 inox  ",
+        "category": "acougue",
+        "imgSrc": "./products/32.png",
+        "maker": "Bermar"
+    },
+
+    {
+        "id": 33,
+        "name": "Serra Fita de Coluna inox",
+        "code": "BM-150",
+        "description": "Serra fita de coluna inox 2,0hp  2,82",
+        "category": "acougue",
+        "imgSrc": "./products/33.png",
+        "maker": "Bermar"
+    },
+
+    {
+        "id": 34,
+        "name": "Embaladora de Filme",
+        "code": "BM-156",
+        "description": "Embaladora de filme 40cm",
+        "category": "padaria",
+        "imgSrc": "./products/34.png",
+        "maker": "Bermar",
+        "highlight": true
+    },
+
+    {
+        "id": 35,
+        "name": "Ralador de Milho",
+        "code": "BM-157",
+        "description": "Ralador de milho",
+        "category": "padaria",
+        "imgSrc": "./products/35.png",
+        "maker": "Bermar"
+    },
+
+    {
+        "id": 36,
+        "name": "Amassadeira Semi-rápida 15kg",
+        "code": "ALI-15",
+        "description": "Amassadeira Semi-rápida 15kg",
+        "category": "padaria",
+        "imgSrc": "./products/36.png",
+        "maker": "Braesi"
+    },
+
+    {
+        "id": 37,
+        "name": "Amassadeira Semi-rápida 25kg",
+        "code": "ALI-25",
+        "description": "Amassadeira Semi-rápida 25kg",
+        "category": "padaria",
+        "imgSrc": "./products/37.png",
+        "maker": "Braesi"
+    },
+
+    {
+        "id": 38,
+        "name": "Amassadeira Rápida",
+        "code": "AR-18",
+        "description": "Amassadeira rápida 18kg",
+        "category": "padaria",
+        "imgSrc": "./products/38.png",
+        "maker": "Braesi",
+        "highlight": true
+    },
+
+    {
+        "id": 39,
+        "name": "Batedeira ECLAIR 5L",
+        "code": "BP500",
+        "description": "Batedeira eclair 5L",
+        "category": "padaria",
+        "imgSrc": "./products/39.png",
+        "maker": "Braesi"
+    },
+
+    {
+        "id": 40,
+        "name": "Batedeira Planetária 12L",
+        "code": "BPEL-12",
+        "description": "Batedeira planetária 12L",
+        "category": "padaria",
+        "imgSrc": "./products/40.png",
+        "maker": "Braesi"
+    },
+
+    {
+        "id": 41,
+        "name": "Batedeira Planetária 18L",
+        "code": "BPLE-18",
+        "description": "Batedeira planetária 18L",
+        "category": "padaria",
+        "imgSrc": "./products/41.png",
+        "maker": "Braesi"
+    },
+
+    {
+        "id": 42,
+        "name": "Cilindro Laminador",
+        "code": "CB-30",
+        "description": "Cilindro laminador 30cm",
+        "category": "padaria",
+        "imgSrc": "./products/42.png",
+        "maker": "Braesi"
+    },
+
+    {
+        "id": 43,
+        "name": "Cilindro Sovador",
+        "code": "CBI-500",
+        "description": "Cilindro Sovador 2 motores 1,5cv trifásico",
+        "category": "padaria",
+        "imgSrc": "./products/43.png",
+        "maker": "Braesi"
+    },
+
+    {
+        "id": 44,
+        "name": "Modeladora de Pães coluna",
+        "code": "MB-35G3",
+        "description": "Modeladora de pães coluna 350mm",
+        "category": "padaria",
+        "imgSrc": "./products/44.png",
+        "maker": "Braesi"
+    },
+
+    {
+        "id": 45,
+        "name": "Modeladora de Pães bancada",
+        "code": "MBMJ-22style",
+        "description": "Modeladora de pães bancada 220mm",
+        "category": "padaria",
+        "imgSrc": "./products/45.png",
+        "maker": "Braesi"
+    },
+
+    {
+        "id": 46,
+        "name": "Moinho de Pão",
+        "code": "MP-20",
+        "description": "Moinho de pão",
+        "category": "padaria",
+        "imgSrc": "./products/46.png",
+        "maker": "Braesi",
+        "highlight": true
+    },
+
+    {
+        "id": 47,
+        "name": "Misturador para Brigadeiro",
+        "code": "PRMOG-05",
+        "description": "Misturador para brigadeiro 5L",
+        "category": "lanchonete",
+        "imgSrc": "./products/47.png",
+        "maker": "Braesi"
+    },
+
+    {
+        "id": 48,
+        "name": "Galeteira Multiuso ",
+        "code": "PRP-242G5",
+        "description": "Galeteira Multiuso 70kg",
+        "category": "restaurante",
+        "imgSrc": "./products/48.png",
+        "maker": "Progás"
+    },
+
+    {
+        "id": 49,
+        "name": "Forno Turbo Gás",
+        "code": "PRP-5000",
+        "description": "Forno Turbo gás 5 telas",
+        "category": "padaria",
+        "imgSrc": "./products/49.png",
+        "maker": "Progás",
+        "highlight": true
+    },
+    {
+        "id": 50,
+        "name": "Ralador de Côco e Queijo",
+        "code": "RQ-10",
+        "description": "Ralador de côco e queijo",
+        "category": "padaria",
+        "imgSrc": "./products/50.png",
+        "maker": "Braesi",
+        "highlight": true
+    },
+    {
+        "id": 51,
+        "name": "Chapa Churrasqueira à gás",
+        "code": "CB-60",
+        "description": "Chapa Churrasqueira à gás 60cm 02 queimadores",
+        "category": "lanchonete",
+        "imgSrc": "./products/51.png",
+        "maker": "Compact"
+    },
+
+    {
+        "id": 52,
+        "name": "Chapa Churrasqueira à gás",
+        "code": "CB-80",
+        "description": "Chapa Churrasqueira à gás 80cm 02 queimadores",
+        "category": "lanchonete",
+        "imgSrc": "./products/52.png",
+        "maker": "Compact"
+    },
+
+    {
+        "id": 53,
+        "name": "Chapa Churrasqueira à gás",
+        "code": "CB-100",
+        "description": "Chapa Churrasqueira à gás 100cm 03 queimadores",
+        "category": "lanchonete",
+        "imgSrc": "./products/53.png",
+        "maker": "Compact"
+    },
+
+    {
+        "id": 54,
+        "name": "Chapa Churrasqueira à gás",
+        "code": "CB-120",
+        "description": "Chapa Churrasqueira à gás 120cm 04 queimadores",
+        "category": "lanchonete",
+        "imgSrc": "./products/54.png",
+        "maker": "Compact"
+    },
+
+    {
+        "id": 55,
+        "name": "Auto Serviço 02 portas",
+        "code": "ACFM-1000",
+        "description": "Auto Serviço 02 portas 1000L",
+        "category": "supermercado",
+        "imgSrc": "./products/55.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 56,
+        "name": "Auto Serviço 03 portas",
+        "code": "ACFM-1450",
+        "description": "Auto Serviço 03 portas 1450L",
+        "category": "supermercado",
+        "imgSrc": "./products/56.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 57,
+        "name": "Auto Serviço 05 portas",
+        "code": "ACFM-2375",
+        "description": "Auto serviço 05 portas 2375L",
+        "category": "supermercado",
+        "imgSrc": "./products/57.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 58,
+        "name": "Conservador Tripla ação",
+        "code": "VCET-569",
+        "description": "Conservador tripla ação porta vidro 569L",
+        "category": "restaurante",
+        "imgSrc": "./products/58.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 59,
+        "name": "Conservador Tripla ação",
+        "code": "VCET-569C",
+        "description": "Conservador tripla ação porta chapa 569L",
+        "category": "restaurante",
+        "imgSrc": "./products/59.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 60,
+        "name": "Conservador Vertical",
+        "code": "VCFB-569",
+        "description": "Conservador vertical porta vidro 569L",
+        "category": "restaurante",
+        "imgSrc": "./products/60.png",
+        "maker": "Fricon"
+    }
+]
