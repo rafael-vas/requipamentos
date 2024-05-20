@@ -180,11 +180,10 @@ div.dialog-content {
 
 .dialog-content .dialog-img {
     width: 100%;
-    max-width: 14.225rem;
-    padding: 1rem;
+    max-width: 22.225rem;
+    /* padding: 1rem; */
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.050);
-    border-radius: .625rem;
+    /* border-radius: .625rem; */
 }
 
 .dialog-content .dialog-close {
