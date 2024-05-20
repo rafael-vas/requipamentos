@@ -1,5 +1,16 @@
 .rt-TableRootTable {
 
+    .product-name {
+        text-transform: uppercase;
+        font-size: .775rem;
+        letter-spacing: .0225rem;
+        opacity: .95;
+        font-weight: bold;
+    }
+    .product-description {
+        color: black;
+    }
+
     .product-code {
         opacity: .65;
         font-size: .725rem;
