@@ -22,7 +22,7 @@ export function CardList({ list, swiperOn, highlight = false, handleAddCount }) 
                 <Card
                   handleAddCount={handleAddCount}
                   highlight={highlight}
-                  key={id}
+                  key={id + code}
                   id={id}
                   name={name}
                   code={code}
@@ -41,7 +41,7 @@ export function CardList({ list, swiperOn, highlight = false, handleAddCount }) 
             return (
               <Card
                 handleAddCount={handleAddCount}
-                key={id}
+                key={id + code}
                 id={id}
                 name={name}
                 code={code}
