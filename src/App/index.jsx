@@ -17,8 +17,16 @@ function App() {
   const storedInfo = JSON.parse(localStorage.getItem('info'));
 
 
-  function handleAddCount(id, name, code, imgSrc, value = 1) {
-    const newInfo = {id: id, name: name, code: code, imgSrc: imgSrc, quantity: value};
+  function handleAddCount(id, name, description, code, imgSrc, maker, value = 1) {
+    const newInfo = {
+      id: id,
+      name: name,
+      description: description,
+      code: code,
+      maker: maker,
+      imgSrc: imgSrc,
+      quantity: value
+    };
 
     setInfo((info) => [...info, newInfo])
     setCount((count)=> count + 1)
@@ -27,7 +35,13 @@ function App() {
 
   const [count, setCount] = useState(storedCount ? storedCount : 0);
   const [info, setInfo] = useState(storedInfo ? storedInfo : [{
-    id: null, name: "", code: "", imgSrc: "", quantity: 0,
+    id: null,
+    name: "",
+    description: "",
+    code: "",
+    maker: "",
+    imgSrc: "",
+    quantity: 0,
   }]);
 
   useEffect(() => {

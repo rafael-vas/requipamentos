@@ -49,7 +49,7 @@ export function Card({
             </Dialog.Trigger>
             <Button
               onClick={() => {
-                handleAddCount(id, name, code, imgSrc)
+                handleAddCount(id, name, description, code, imgSrc, maker)
                 displayMsg(name, code, imgSrc)
               }}
               className="add-btn"
