@@ -5,8 +5,9 @@ const categories = [
     {id: 2, label: "padaria", title: "padaria"},
     {id: 3, label: "açougue", title: "acougue"},
     {id: 4, label: "supermercado", title: "supermercado"},
-    {id: 5, label: "sorveteria", title: "sorveteria"},
-    {id: 6, label: "bar e restaurante", title: "restaurante"},
+    {id: 5, label: "lanchonete", title: "lanchonete"},
+    {id: 6, label: "farmácia", title: "farmacia"},
+    {id: 7, label: "bar e restaurante", title: "restaurante"},
 ];
 
 export function Filter() {
