@@ -6,6 +6,13 @@
     flex: 1;
 }
 
+.product.section .card-list .card {
+    max-height: 20.625rem;
+    @media screen and (max-width: 1280px) {
+        flex: 1;
+    }
+}
+
 /* .main .section .swiper {
     margin: 0 6rem;
 } */
