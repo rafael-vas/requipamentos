@@ -179,7 +179,7 @@ export default function Orcamento({ count, info }) {
               name={"text"}
               label={"Nome e Sobrenome"}
               messageForMismatch="nome inválido"
-              messageForMissing="preencha com seu celular"
+              messageForMissing="preencha com seu nome"
               placeholder="João Silva"
             />
             <FormField
