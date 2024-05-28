@@ -12,6 +12,10 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+
+    @media screen and (max-width: 425px) {
+        width: 100%;
+    }
     /* border-left: 4rem solid var(--light-blue); */
     /* border-right: 4rem solid var(--light-blue); */
 }
