@@ -602,5 +602,2128 @@
         "category": "restaurante",
         "imgSrc": "./products/60.png",
         "maker": "Fricon"
+    },
+
+    {
+        "id": 61,
+        "name": "Freezer Horizontal 142 V",
+        "code": "HCEB-142V",
+        "description": "Conservador horizontal de baixa temperatura v.reto 142L ",
+        "category": "restaurante",
+        "imgSrc": "./products/61.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 62,
+        "name": "Freezer Horizontal 216 V",
+        "code": "HCEB-216V",
+        "description": "Conservador horizontal de baixa temperatura v.reto 216L ",
+        "category": "restaurante",
+        "imgSrc": "./products/62.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 63,
+        "name": "Freezer Horizontal 311 V",
+        "code": "HCEB-311V",
+        "description": "Conservador horizontal de baixa temperatura v.reto 311L ",
+        "category": "restaurante",
+        "imgSrc": "./products/63.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 64,
+        "name": "Freezer Horizontal 411 V",
+        "code": "HCEB-411V",
+        "description": "Conservador horizontal de baixa temperatura v.reto 411L ",
+        "category": "restaurante",
+        "imgSrc": "./products/64.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 65,
+        "name": "Freezer Horizontal 503 V",
+        "code": "HCEB-503V",
+        "description": "Conservador horizontal de baixa temperatura v.reto 503L ",
+        "category": "restaurante",
+        "imgSrc": "./products/65.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 66,
+        "name": "Freezer Horizontal 131 V",
+        "code": "HCEB-131I",
+        "description": "Conservador horizontal de baixa temperatura v.curvo 131L ",
+        "category": "restaurante",
+        "imgSrc": "./products/66.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 67,
+        "name": "Freezer Horizontal 216 C 1 porta",
+        "code": "HCED-216C",
+        "description": "Conservador horizontal dupla ação porta de chapa 216L ",
+        "category": "restaurante",
+        "imgSrc": "./products/67.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 68,
+        "name": "Freezer Horizontal 311 C 1 porta",
+        "code": "HCED-311C",
+        "description": "Conservador horizontal dupla ação porta de chapa 311L ",
+        "category": "restaurante",
+        "imgSrc": "./products/68.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 69,
+        "name": "Freezer Horizontal 411 C 2 portas",
+        "code": "HCED-411C",
+        "description": "Conservador horizontal dupla ação porta de chapa 411L ",
+        "category": "restaurante",
+        "imgSrc": "./products/69.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 70,
+        "name": "Freezer Horizontal 411 V ",
+        "code": "HCED-411V",
+        "description": "Conservador horizontal dupla ação porta de vidro 411L ",
+        "category": "restaurante",
+        "imgSrc": "./products/70.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 71,
+        "name": "Freezer Horizontal 503 C 2 portas ",
+        "code": "HCED-503C",
+        "description": "Conservador horizontal dupla ação porta de chapa 503L ",
+        "category": "restaurante",
+        "imgSrc": "./products/71.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 72,
+        "name": "Freezer Horizontal 503 V",
+        "code": "HCED-503V",
+        "description": "Conservador horizontal dupla ação porta de vidro 503L",
+        "category": "restaurante",
+        "imgSrc": "./products/72.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 73,
+        "name": "Ilha dupla ação 503V",
+        "code": "ICED-503V",
+        "description": "Ilha dupla ação 503L  ",
+        "category": "supermercado",
+        "imgSrc": "./products/73.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 74,
+        "name": "Ilha dupla ação 820V",
+        "code": "ICED-820V",
+        "description": "Ilha dupla ação 820L  ",
+        "category": "supermercado",
+        "imgSrc": "./products/74.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 75,
+        "name": "Ilha dupla ação 1163V",
+        "code": "ICED-1163V",
+        "description": "Ilha dupla ação 1163L  ",
+        "category": "restaurante",
+        "imgSrc": "./products/75.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 76,
+        "name": "Cervejeira 431 D",
+        "code": "VCFC-431D",
+        "description": "Conservador vertical de cervejas 431L",
+        "category": "restaurante",
+        "imgSrc": "./products/76.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 77,
+        "name": "Cervejeira 565 C",
+        "code": "VCFC-565C",
+        "description": "Conservador vertical de cervejas porta chapa 565L",
+        "category": "restaurante",
+        "imgSrc": "./products/77.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 78,
+        "name": "Cervejeira 565 V",
+        "code": "VCFC-565V",
+        "description": "Conservador vertical de cervejas porta vidro 565L",
+        "category": "restaurante",
+        "imgSrc": "./products/78.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 79,
+        "name": "Refrigerador Vertical 569 V",
+        "code": "VCFM-569V",
+        "description": "Conservador vertical de média temperatura porta vidro 569L",
+        "category": "lanchonete",
+        "imgSrc": "./products/79.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 80,
+        "name": "Refrigerador Vertical 284 V",
+        "code": "VCFM-284V",
+        "description": "Conservador vertical de média temperatura porta vidro 284L",
+        "category": "lanchonete",
+        "imgSrc": "./products/80.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 81,
+        "name": "Refrigerador Vertical 402 V",
+        "code": "VCFM-402V",
+        "description": "Conservador vertical de média temperatura porta vidro 402L",
+        "category": "lanchonete",
+        "imgSrc": "./products/81.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 82,
+        "name": "Refrigerador Vertical 565 V",
+        "code": "VCFM-565V",
+        "description": "Conservador vertical de média temperatura porta vidro 565L",
+        "category": "restaurante",
+        "imgSrc": "./products/82.png",
+        "maker": "Fricon"
+    },
+
+    {
+        "id": 83,
+        "name": "Balcão para Carnes 150 D",
+        "code": "GATS-150D",
+        "description": "Balcão para carnes c/ depósito preto 1,50m",
+        "category": "acougue",
+        "imgSrc": "./products/83.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 84,
+        "name": "Balcão para Carnes inox 2,00 AI",
+        "code": "GATS-200AI",
+        "description": "Balcão para carnes inox 2,00m",
+        "category": "acougue",
+        "imgSrc": "./products/84.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 85,
+        "name": "Balcão para Carnes 2,00 PR ",
+        "code": "GATS-200PR ",
+        "description": "Balcão para carnes preto 2,00m",
+        "category": "acougue",
+        "imgSrc": "./products/85.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 86,
+        "name": "Balcão para Carnes 2,00 VM ",
+        "code": "GATS-200VM ",
+        "description": "Balcão para carnes vermelho 2,00m",
+        "category": "acougue",
+        "imgSrc": "./products/86.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 87,
+        "name": "Auto Serviço 2 portas PR",
+        "code": "GEAS-2PPR",
+        "description": "Auto serviço 2 portas preto 820L -2 à +10  ",
+        "category": "supermercado",
+        "imgSrc": "./products/87.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 88,
+        "name": "Auto Serviço 3 portas PR",
+        "code": "GEAS-3PPR",
+        "description": "Auto serviço 3 portas preto 1200L -2 à +10  ",
+        "category": "supermercado",
+        "imgSrc": "./products/88.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 89,
+        "name": "Auto Serviço 5 portas PR",
+        "code": "GEAS-5PPR",
+        "description": "Auto serviço 5 portas preto 1960L -2 à +10",
+        "category": "supermercado",
+        "imgSrc": "./products/89.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 90,
+        "name": "Vitrine Refrigerada para Bolos",
+        "code": "GEVG-075PR",
+        "description": "Vitrine refrigerada para bolos 760mm",
+        "category": "padaria",
+        "imgSrc": "./products/90.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 91,
+        "name": "Vitrine Refrigerada Dupla Função",
+        "code": "GGER-100",
+        "description": "Vitrine refrigerada dupla função 1,00m p/ frios e tortas 0 à +10",
+        "category": "padaria",
+        "imgSrc": "./products/91.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 92,
+        "name": "Vitrine Refrigerada 02 placas Frias 110",
+        "code": "GPDA-110R",
+        "description": "Vitrine refrigerada 02 placas 1,10m p/ frios 0 à +7",
+        "category": "padaria",
+        "imgSrc": "./products/92.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 93,
+        "name": "Vitrine Refrigerada 02 placas Frias 175",
+        "code": "GPDA-175R",
+        "description": "Vitrine refrigerada 02 placas 1,75m p/ frios 0 à +7",
+        "category": "padaria",
+        "imgSrc": "./products/93.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 94,
+        "name": "Vitrine Refrigerada 02 placas Frias 205",
+        "code": "GPDA-205R",
+        "description": "Vitrine refrigerada 02 placas 2,05m p/ frios 0 à +7",
+        "category": "padaria",
+        "imgSrc": "./products/94.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 95,
+        "name": "Vitrine Refrigerada Confeitaria Dupla Função 075 Aurora",
+        "code": "GPEA-075R",
+        "description": "Vitrine refrigerada confeitaria dupla função 0,75m frios/tortas 0 à +10",
+        "category": "padaria",
+        "imgSrc": "./products/95.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 96,
+        "name": "Vitrine Refrigerada Confeitaria Dupla Função 110 Aurora",
+        "code": "GPEA-110R",
+        "description": "Vitrine refrigerada confeitaria dupla função 1,10m frios/tortas 0 à +10",
+        "category": "padaria",
+        "imgSrc": "./products/96.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 97,
+        "name": "Vitrine Refrigerada Confeitaria Dupla Função 140 Aurora",
+        "code": "GPEA-140R",
+        "description": "Vitrine refrigerada confeitaria dupla função 1,40m frios/tortas 0 à +10",
+        "category": "padaria",
+        "imgSrc": "./products/97.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 98,
+        "name": "Vitrine Refrigerada Confeitaria Dupla Função 175 Aurora",
+        "code": "GPEA-175R",
+        "description": "Vitrine refrigerada confeitaria dupla função 1,75m frios/tortas 0 à +10",
+        "category": "padaria",
+        "imgSrc": "./products/98.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 99,
+        "name": "Vitrine Refrigerada Ar Forçado 075 Aurora ",
+        "code": "GPFA-075R",
+        "description": "Vitrine refrigerada ar forçado 0,75m frios 0 à +7",
+        "category": "padaria",
+        "imgSrc": "./products/99.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 100,
+        "name": "Vitrine Refrigerada 01 placa Fria 110 PR Aurora",
+        "code": "GPSA-110RPR",
+        "description": "Vitrine refrigerada 01 placa fria 1,10m PR bebidas/frios 0 à +7",
+        "category": "lanchonete",
+        "imgSrc": "./products/100.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 101,
+        "name": "Vitrine Refrigerada 01 placa Fria 110 TI Aurora",
+        "code": "GPSA-110RTI",
+        "description": "Vitrine refrigerada 01 placa fria 1,10m TI bebidas/frios 0 à +7",
+        "category": "lanchonete",
+        "imgSrc": "./products/101.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 102,
+        "name": "Vitrine Quente/Fria evaporador 140 PR Aurora",
+        "code": "GQEA-140RPR",
+        "description": "Vitrine quente/fria evaporador 1,40m PR LR 0 à +10 ; LA +30 à +65 Aurora",
+        "category": "lanchonete",
+        "imgSrc": "./products/102.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 103,
+        "name": "Balcão Frigorífico Avícola 200 Turino",
+        "code": "GRTA-200",
+        "description": "Balcão frigorífico avícola 2,00m carnes/aves 0 à +7 Turino",
+        "category": "acougue",
+        "imgSrc": "./products/103.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 104,
+        "name": "Balcão Frigorífico Avícola 300 Turino",
+        "code": "GRTA-300",
+        "description": "Balcão frigorífico avícola 3,00m carnes/aves 0 à +7 Turino",
+        "category": "acougue",
+        "imgSrc": "./products/104.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 105,
+        "name": "Vitrine Refrigerada de Bancada 160 ",
+        "code": "GVRB-160",
+        "description": "Vitrine refrigerada de bancada 1,60m sushi/frios 0 à +7",
+        "category": "restaurante",
+        "imgSrc": "./products/105.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 106,
+        "name": "Vitrine Estufa com Bandejas 075 PR Aurora",
+        "code": "MEQA-075RPR",
+        "description": "Vitrine estufa com bandejas 0,75m PR salgados +30 à +65 Aurora",
+        "category": "lanchonete",
+        "imgSrc": "./products/106.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 107,
+        "name": "Vitrine Estufa com Bandejas 140 PR Aurora",
+        "code": "MEQA-140RPR",
+        "description": "Vitrine estufa com bandejas 1,40m PR salgados +30 à +65 Aurora ",
+        "category": "lanchonete",
+        "imgSrc": "./products/107.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 108,
+        "name": "Vitrine Neutra 140 Aurora",
+        "code": "MPNA-140RPR",
+        "description": "Vitrine neutra 1,40m PR Aurora",
+        "category": "padaria",
+        "imgSrc": "./products/108.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 109,
+        "name": "Vitrine Neutra Caixa 075 PR Aurora",
+        "code": "MPXA-075RPR",
+        "description": "Vitrine neutra Caixa 0,75m PR Aurora",
+        "category": "lanchonete",
+        "imgSrc": "./products/109.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 110,
+        "name": "Mini-Câmara Refrigerada Açougue 1600 ",
+        "code": "GMCR-1600",
+        "description": "Mini-câmara refrigerada açougue 1600L carnes 0 à +7",
+        "category": "acougue",
+        "imgSrc": "./products/110.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 111,
+        "name": "Balcão Frigorífico Açougue Triplex 210",
+        "code": "GEVD-210PR",
+        "description": "Balcão frigorífico açougue triplex 2,10m carnes 0 à +7",
+        "category": "acougue",
+        "imgSrc": "./products/111.jpg",
+        "maker": "Gelopar"
+    },
+
+    {
+        "id": 112,
+        "name": "Assadeira 58x70x3 em Alumínio Lisa Dobrável",
+        "code": "08-368",
+        "description": "assadeira 58x70x3 em alumínio lisa dobrável ",
+        "category": "padaria",
+        "imgSrc": "./products/112.png",
+        "maker": "Imeca"
+    },
+
+    {
+        "id": 113,
+        "name": "Assadeira 62x36x3,5 Alumínio lisa",
+        "code": "",
+        "description": "Assadeira 62x36x3,5 alumínio lisa",
+        "category": "padaria",
+        "imgSrc": "./products/113.png",
+        "maker": "Imeca"
+    },
+
+    {
+        "id": 114,
+        "name": "Câmara 58x70 Époxi Vazia Desmontável",
+        "code": "",
+        "description": "Câmara 58x70 époxi vazia desmontável",
+        "category": "padaria",
+        "imgSrc": "./products/114.png",
+        "maker": "Imeca"
+    },
+
+    {
+        "id": 115,
+        "name": "Câmara 58x70 Inox 304 p 20 Assad Vazia",
+        "code": "",
+        "description": "Câmara 58x70 inox 304 p 20 assad vazia",
+        "category": "padaria",
+        "imgSrc": "./products/115.png",
+        "maker": "Imeca"
+    },
+
+    {
+        "id": 116,
+        "name": "Carrinho p Transp. Inox 304 com Caixa 180L",
+        "code": "",
+        "description": "Carrinho p transp. inox 304 com caixa 180L",
+        "category": "padaria",
+        "imgSrc": "./products/116.png",
+        "maker": "Imeca"
+    },
+
+    {
+        "id": 117,
+        "name": "Estante Aberta Pizza 40x80 Epóxi Desmontável",
+        "code": "",
+        "description": "Estante aberta pizza 40x80 epóxi desmontável",
+        "category": "padaria",
+        "imgSrc": "./products/117.png",
+        "maker": "Imeca"
+    },
+
+    {
+        "id": 118,
+        "name": "Estante Aberta 58x70 Epóxi 20 Assad Vazia Desmontável",
+        "code": "",
+        "description": "Estante aberta 58x70 epóxi 20 assad vazia desmontável",
+        "category": "padaria",
+        "imgSrc": "./products/118.png",
+        "maker": "Imeca"
+    },
+
+    {
+        "id": 119,
+        "name": "Estante Aberta 62x36 Epóxi p 40 Assad Vazia",
+        "code": "",
+        "description": "Estante aberta 62x36 epóxi p 40 assad vazia",
+        "category": "padaria",
+        "imgSrc": "./products/119.png",
+        "maker": "Imeca"
+    },
+
+    {
+        "id": 120,
+        "name": "Esteira 58x70 5 Tiras Alumínio 7cm",
+        "code": "",
+        "description": "Esteira 58x70 5 tiras alumínio 7cm",
+        "category": "padaria",
+        "imgSrc": "./products/120.png",
+        "maker": "Imeca"
+    },
+
+    {
+        "id": 121,
+        "name": "Mesa 1,20x,70x Inox 430 Desmontável",
+        "code": "",
+        "description": "Mesa 1,20x,70x inox 430 desmontável",
+        "category": "padaria",
+        "imgSrc": "./products/121.png",
+        "maker": "Imeca"
+    },
+
+    {
+        "id": 122,
+        "name": "Mesa 1,50x,70x Inox 430 Desmontável",
+        "code": "",
+        "description": "Mesa 1,50x,70x inox 430 desmontável",
+        "category": "padaria",
+        "imgSrc": "./products/122.png",
+        "maker": "Imeca"
+    },
+
+    {
+        "id": 123,
+        "name": "Mesa 1,90x0,70x Inox 430 Desmontável",
+        "code": "",
+        "description": "Mesa 1,90x0,70x inox 430 desmontável",
+        "category": "padaria",
+        "imgSrc": "./products/123.png",
+        "maker": "Imeca"
+    },
+
+    {
+        "id": 124,
+        "name": "Fogão à Gás 02bc 30x30 Alta Pressão",
+        "code": "FG02AP",
+        "description": "fogão à gás 02bc 30x30 Alta Pressão",
+        "category": "restaurante",
+        "imgSrc": "./products/124.jpg",
+        "maker": "Itajobi"
+    },
+
+    {
+        "id": 125,
+        "name": "Fogão à Gás 04bc 30x30 Alta Pressão",
+        "code": "FG04AP",
+        "description": "fogão à gás 04bc 30x30 Alta Pressão",
+        "category": "restaurante",
+        "imgSrc": "./products/125.jpg",
+        "maker": "Itajobi"
+    },
+
+    {
+        "id": 126,
+        "name": "Fogão à Gás 06bc 30x30 Alta Pressão",
+        "code": "FG06AP",
+        "description": "fogão à gás 06bc 30x30 Alta Pressão",
+        "category": "restaurante",
+        "imgSrc": "./products/126.jpg",
+        "maker": "Itajobi"
+    },
+
+    {
+        "id": 127,
+        "name": "Balcão Tendal New Premium 1,50",
+        "code": "1003",
+        "description": "Balcão Tendal para Carnes New Premium 1,50m",
+        "category": "acougue",
+        "imgSrc": "./products/127.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 128,
+        "name": "Balcão Tendal New Premium 2,00",
+        "code": "1006",
+        "description": "Balcão Tendal para Carnes New Premium 2,00m",
+        "category": "acougue",
+        "imgSrc": "./products/128.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 129,
+        "name": "Expositor Açougue Vitrine New Premium 1,50m",
+        "code": "1107",
+        "description": "Expositor açougue vitrine new premium 1,50m",
+        "category": "acougue",
+        "imgSrc": "./products/129.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 130,
+        "name": "Expositor Açougue Vitrine New Premium 2,00m",
+        "code": "1108",
+        "description": "Expositor açougue vitrine new premium 2,00m",
+        "category": "acougue",
+        "imgSrc": "./products/130.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 131,
+        "name": "Expositor Açougue Avicola New Premium 1,50m",
+        "code": "1203",
+        "description": "Expositor açougue avícola new premium 1,50m carnes/frangos",
+        "category": "acougue",
+        "imgSrc": "./products/131.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 132,
+        "name": "Expositor Açougue Avícola New Premium 2,00m",
+        "code": "1206",
+        "description": "Expositor açougue avícola new premium 2,00m carnes/frangos",
+        "category": "acougue",
+        "imgSrc": "./products/132.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 133,
+        "name": "Conveniencia Classic Frios e Laticinios 1,50m 2P",
+        "code": "2151",
+        "description": "Conveniência Classic Frios e Laticínios 1,50m 2 portas",
+        "category": "supermercado",
+        "imgSrc": "./products/133.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 134,
+        "name": "Conveniencia Classic Frios e Laticinios 2,00m 3P",
+        "code": "2153",
+        "description": "Conveniência Classic Frios e Laticínios 2,00m 3 portas",
+        "category": "supermercado",
+        "imgSrc": "./products/134.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 135,
+        "name": "Conveniencia Classic Frios e Laticinios 3,00m 5P",
+        "code": "2157",
+        "description": "Conveniência Classic Frios e Laticínios 3,00m 5 portas",
+        "category": "supermercado",
+        "imgSrc": "./products/135.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 136,
+        "name": "Vitrine Refrigerada 0,94m Gourmet",
+        "code": "5031",
+        "description": "Vitrine Refrigerada Gourmet 0,94m  +2 à +10 ",
+        "category": "padaria"
+        ,
+        "imgSrc": "./products/136.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 137,
+        "name": "Vitrine Refrigerada 1,19m Gourmet",
+        "code": "5034",
+        "description": "Vitrine Refrigerada Gourmet 1,19m  +2 à +10 ",
+        "category": "padaria",
+        "imgSrc": "./products/137.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 138,
+        "name": "Vitrine Refrigerada 1,44m Gourmet",
+        "code": "5037",
+        "description": "Vitrine Refrigerada Gourmet 1,44m  +2 à +10 ",
+        "category": "padaria",
+        "imgSrc": "./products/138.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 139,
+        "name": "Vitrine Refrigerada 1,00m New Premium",
+        "code": "5101",
+        "description": "Vitrine refrigerada 1,00m new premium / tortas ",
+        "category": "padaria",
+        "imgSrc": "./products/139.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 140,
+        "name": "Vitrine Refrigerada 1,25m New Premium",
+        "code": "5102",
+        "description": "Vitrine refrigerada 1,25m new premium / tortas ",
+        "category": "padaria",
+        "imgSrc": "./products/140.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 141,
+        "name": "Vitrine Refrigerada 1,50m New Premium",
+        "code": "5103",
+        "description": "Vitrine refrigerada 1,50m new premium / tortas ",
+        "category": "padaria",
+        "imgSrc": "./products/141.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 142,
+        "name": "Vitrine Estufa 0,94m Gourmet",
+        "code": "5210",
+        "description": "Vitrine Estufa 0,94m Gourmet",
+        "category": "padaria",
+        "imgSrc": "./products/142.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 143,
+        "name": "Vitrine Estufa 1,19m Gourmet",
+        "code": "5211",
+        "description": "Vitrine Estufa 1,19m Gourmet",
+        "category": "padaria",
+        "imgSrc": "./products/143.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 144,
+        "name": "Vitrine Estufa 1,44m Gourmet",
+        "code": "5212",
+        "description": "Vitrine Estufa 1,44m Gourmet",
+        "category": "padaria",
+        "imgSrc": "./products/144.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 145,
+        "name": "Vitrine Estufa 0,85m New Premium",
+        "code": "5301",
+        "description": "Vitrine estufa 0,85m new premium",
+        "category": "padaria",
+        "imgSrc": "./products/145.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 146,
+        "name": "Vitrine Estufa 1,25m New Premium",
+        "code": "5302",
+        "description": "Vitrine estufa 1,25m new premium",
+        "category": "padaria",
+        "imgSrc": "./products/146.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 147,
+        "name": "Vitrine Seca 0,94m Gourmet",
+        "code": "6041",
+        "description": "Vitrine seca 0,94m gourmet",
+        "category": "padaria",
+        "imgSrc": "./products/147.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 148,
+        "name": "Vitrine Seca 1,19m Gourmet",
+        "code": "6044",
+        "description": "Vitrine seca 1,19m gourmet",
+        "category": "padaria",
+        "imgSrc": "./products/148.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 149,
+        "name": "Vitrine Seca 1,44m Gourmet",
+        "code": "6047",
+        "description": "Vitrine seca 1,44m gourmet",
+        "category": "padaria",
+        "imgSrc": "./products/149.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 150,
+        "name": "Vitrine Seca 1,00m New Premium",
+        "code": "6101",
+        "description": "Vitrine seca 1,00m new premium",
+        "category": "padaria",
+        "imgSrc": "./products/150.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 151,
+        "name": "Vitrine Seca 1,25m New Premium",
+        "code": "6102",
+        "description": "Vitrine seca 1,25m new premium",
+        "category": "padaria",
+        "imgSrc": "./products/151.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 152,
+        "name": "Vitrine Seca 1,50m New Premium",
+        "code": "6103",
+        "description": "Vitrine seca 1,50m new premium",
+        "category": "padaria",
+        "imgSrc": "./products/152.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 153,
+        "name": "Vitrine Seca 1,80m New Premium",
+        "code": "6104",
+        "description": "Vitrine seca 1,80m new premium",
+        "category": "padaria",
+        "imgSrc": "./products/153.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 154,
+        "name": "Vitrine Seca 2,00m New Premium",
+        "code": "6105",
+        "description": "Vitrine seca 2,00m new premium",
+        "category": "padaria",
+        "imgSrc": "./products/154.png",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 155,
+        "name": "Balcão Caixa 0,70m Gourmet",
+        "code": "6218",
+        "description": "Balcão caixa 0,70m gourmet",
+        "category": "padaria",
+        "imgSrc": "./products/155.jpg",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 156,
+        "name": "Balcão Caixa 0,80m New Premium",
+        "code": "6301",
+        "description": "Balcão caixa 0,80m new premium",
+        "category": "padaria",
+        "imgSrc": "./products/156.jpg",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 157,
+        "name": "Auto Serviço para Bebidas 02 portas",
+        "code": "",
+        "description": "Auto Serviço para bebidas 02 portas",
+        "category": "padaria",
+        "imgSrc": "./products/157.jpeg",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 158,
+        "name": "Auto Serviço para Bebidas 03 portas",
+        "code": "",
+        "description": "Auto Serviço para bebidas 03 portas",
+        "category": "padaria",
+        "imgSrc": "./products/158.jpeg",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 159,
+        "name": "Auto Serviço para Bebidas 05 portas",
+        "code": "",
+        "description": "Auto Serviço para bebidas 05 portas",
+        "category": "padaria",
+        "imgSrc": "./products/159.jpeg",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 160,
+        "name": "Vitrine Buffet Conjugada 1,50m",
+        "code": "7003",
+        "description": "Vitrine buffet conjugada 1,50m",
+        "category": "padaria",
+        "imgSrc": "./products/160.jpg",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 161,
+        "name": "Vitrine Buffet Conjugada 1,90m",
+        "code": "7005",
+        "description": "Vitrine buffet conjugada 1,90m",
+        "category": "padaria",
+        "imgSrc": "./products/161.jpg",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 162,
+        "name": "Vitrine para Pães Nobres 1,50m",
+        "code": "7102",
+        "description": "Vitrine para pães nobres 1,50m",
+        "category": "padaria",
+        "imgSrc": "./products/162.jpg",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 163,
+        "name": "Vitrine para Pães Nobres 1,90m",
+        "code": "7104",
+        "description": "Vitrine para pães nobres 1,90m",
+        "category": "padaria",
+        "imgSrc": "./products/163.jpg",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 164,
+        "name": "Balcão Refrigerado 1,00m New Premium",
+        "code": "3101",
+        "description": "Balcão refrigerado 1,00m new premium",
+        "category": "padaria",
+        "imgSrc": "./products/164.jpg",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 165,
+        "name": "Balcão Refrigerado 1,25m New Premium",
+        "code": "3102",
+        "description": "Balcão refrigerado 1,25m new premium",
+        "category": "padaria",
+        "imgSrc": "./products/165.jpg",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 166,
+        "name": "Balcão Refrigerado 1,50m New Premium",
+        "code": "3103",
+        "description": "Balcão refrigerado 1,50m new premium",
+        "category": "padaria",
+        "imgSrc": "./products/166.jpg",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 167,
+        "name": "Balcão Refrigerado 1,80m New Premium",
+        "code": "3104",
+        "description": "Balcão refrigerado 1,80m new premium",
+        "category": "padaria",
+        "imgSrc": "./products/167.jpg",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 168,
+        "name": "Balcão Refrigerado 2,00m New Premium",
+        "code": "3105",
+        "description": "Balcão refrigerado 2,00m new premium",
+        "category": "padaria",
+        "imgSrc": "./products/168.jpg",
+        "maker": "Polofrio"
+    },
+
+    {
+        "id": 169,
+        "name": "Carrinho para Compras 90L",
+        "code": "C90",
+        "description": "Carrinho para compras 90L",
+        "category": "supermercado",
+        "imgSrc": "./products/169.jpg",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 170,
+        "name": "Cesto para gôndola 30x40",
+        "code": "",
+        "description": "Cesto para gôndola 30x40",
+        "category": "supermercado",
+        "imgSrc": "./products/170.jpeg",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 171,
+        "name": "Cesto para gôndola 40x50",
+        "code": "",
+        "description": "Cesto para gôndola 40x50",
+        "category": "supermercado",
+        "imgSrc": "./products/171.jpeg",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 172,
+        "name": "Checkout em L 1,50m",
+        "code": "CHECK150",
+        "description": "Checkout em L 1,50m com recorte para balança",
+        "category": "supermercado",
+        "imgSrc": "./products/172.png",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 173,
+        "name": "Checkout em L 2,00m",
+        "code": "CHECK200",
+        "description": "Checkout em L 2,00m com recorte para balança",
+        "category": "supermercado",
+        "imgSrc": "./products/173.png",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 174,
+        "name": "Checkout Express 600x450",
+        "code": "CHECK6045",
+        "description": "Checkout express 600x450",
+        "category": "supermercado",
+        "imgSrc": "./products/174.png",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 175,
+        "name": "check-stand",
+        "code": "",
+        "description": "check-stand",
+        "category": "supermercado",
+        "imgSrc": "./products/175.jpeg",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 176,
+        "name": "Roupeiro 12 pp 3x4 300x300",
+        "code": "26032019",
+        "description": "Roupeiro 12 portas 3x4 300x300",
+        "category": "supermercado",
+        "imgSrc": "./products/176.jpg",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 177,
+        "name": "Divisoria para Cesto 30x40",
+        "code": "",
+        "description": "Divisoria para Cesto 30x40",
+        "category": "supermercado",
+        "imgSrc": "./products/177.jpeg",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 178,
+        "name": "Divisoria para Cesto 30x50",
+        "code": "",
+        "description": "Divisoria para Cesto 30x50",
+        "category": "supermercado",
+        "imgSrc": "./products/178.jpeg",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 179,
+        "name": "Estante de Aço 200x030",
+        "code": "26032019",
+        "description": "Estante de Aço 200x030",
+        "category": "supermercado",
+        "imgSrc": "./products/179.png",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 180,
+        "name": "Gancho Duplo 30cm ",
+        "code": "",
+        "description": "Gancho duplo para gôndola 30cm ",
+        "category": "supermercado",
+        "imgSrc": "./products/180.jpg",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 181,
+        "name": "Gancho Simples 30cm ",
+        "code": "",
+        "description": "Gancho simples para gôndola 30cm",
+        "category": "supermercado",
+        "imgSrc": "./products/181.jpeg",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 182,
+        "name": "Gôndola Centro Continuação 1,40m",
+        "code": "",
+        "description": "Gôndola centro continuação 1,40m",
+        "category": "supermercado",
+        "imgSrc": "./products/182.png",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 183,
+        "name": "Gôndola Centro Continuação 1,70m",
+        "code": "",
+        "description": "Gôndola centro continuação 1,70m",
+        "category": "supermercado",
+        "imgSrc": "./products/183.png",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 184,
+        "name": "Gôndola Centro Continuação 2,00m",
+        "code": "",
+        "description": "Gôndola centro continuação 2,00m",
+        "category": "supermercado",
+        "imgSrc": "./products/184.png",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 185,
+        "name": "Gôndola Centro inicial 1,40m",
+        "code": "",
+        "description": "Gôndola centro inicial 1,40m",
+        "category": "supermercado",
+        "imgSrc": "./products/185.png",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 186,
+        "name": "Gôndola Centro Inicial 1,70m",
+        "code": "",
+        "description": "Gôndola centro inicial 1,70m",
+        "category": "supermercado",
+        "imgSrc": "./products/186.png",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 187,
+        "name": "Gôndola Centro Inicial 2,00m",
+        "code": "",
+        "description": "Gôndola centro inicial 2,00m",
+        "category": "supermercado",
+        "imgSrc": "./products/187.png",
+        "maker": "S/A"
+    },
+
+   {
+        "id": 188,
+        "name": "Gôndola Parede Continuação 1,70m",
+        "code": "",
+        "description": "Gôndola parede continuação 1,70m",
+        "category": "supermercado",
+        "imgSrc": "./products/188.png",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 189,
+        "name": "Gôndola Parede Continuação 2,00m",
+        "code": "",
+        "description": "Gôndola parede continuação 2,00m",
+        "category": "supermercado",
+        "imgSrc": "./products/189.png",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 190,
+        "name": "Gôndola Parede Inicial 1,70m",
+        "code": "",
+        "description": "Gôndola parede inicial 1,70m",
+        "category": "supermercado",
+        "imgSrc": "./products/190.png",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 191,
+        "name": "Gôndola Parede Inicial 2,00m",
+        "code": "",
+        "description": "Gôndola parede inicial 2,00m",
+        "category": "supermercado",
+        "imgSrc": "./products/191.png",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 192,
+        "name": "Gôndola de farmacia 2,00m",
+        "code": "",
+        "description": "Gôndola de farmacia 2,00m",
+        "category": "supermercado",
+        "imgSrc": "./products/192.png",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 193,
+        "name": "Mini Porta-Pallet Inicial 200x060x180",
+        "code": "26032019",
+        "description": "Mini porta-pallet inicial 2,00m x 0,60m x 1,80m 3 níveis",
+        "category": "supermercado",
+        "imgSrc": "./products/193.png",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 194,
+        "name": "Ponta de Gôndola 1,40m",
+        "code": "",
+        "description": "Ponta de gôndola 1,40m",
+        "category": "supermercado",
+        "imgSrc": "./products/194.png",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 195,
+        "name": "Ponta de Gôndola 1,70m",
+        "code": "",
+        "description": "Ponta de gôndola 1,70m",
+        "category": "supermercado",
+        "imgSrc": "./products/195.png",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 196,
+        "name": "Ponta de Gôndola 2,00m",
+        "code": "",
+        "description": "Ponta de gôndola 2,00m",
+        "category": "supermercado",
+        "imgSrc": "./products/196.png",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 197,
+        "name": "Rack Continuação 1,70m 03 bandejas",
+        "code": "",
+        "description": "Rack continuação 1,70m 03 bandejas",
+        "category": "supermercado",
+        "imgSrc": "./products/197.png",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 198,
+        "name": "Rack Continuação 2,00m 04 bandejas",
+        "code": "",
+        "description": "Rack continuação 2,00m 04 bandejas",
+        "category": "supermercado",
+        "imgSrc": "./products/198.png",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 199,
+        "name": "Rack Inicial 1,70m 03 bandejas",
+        "code": "",
+        "description": "Rack inicial 1,70m 03 bandejas",
+        "category": "supermercado",
+        "imgSrc": "./products/199.png",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 200,
+        "name": "Rack Inicial 2,00m 04 bandejas",
+        "code": "",
+        "description": "Rack Inicial 2,00m 04 bandejas",
+        "category": "supermercado",
+        "imgSrc": "./products/200.png",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 201,
+        "name": "Régua para Ganchos",
+        "code": "",
+        "description": "Régua para ganchos de gôndola",
+        "category": "supermercado",
+        "imgSrc": "./products/201.jpg",
+        "maker": "S/A"
+    },
+
+    {
+        "id": 202,
+        "name": "Amaciador inox",
+        "code": "AB",
+        "description": "Amaciador Inox",
+        "category": "acougue",
+        "imgSrc": "./products/202.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 203,
+        "name": "Amassadeira Espiral 40kg",
+        "code": "AES-40",
+        "description": "Amassadeira espiral 40kg",
+        "category": "padaria",
+        "imgSrc": "./products/202.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 204,
+        "name": "Batedor Milk Shake 1 haste",
+        "code": "BMS",
+        "description": "Batedor milk shake 1 haste",
+        "category": "lanchonete",
+        "imgSrc": "./products/204.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 205,
+        "name": "Batedeira Planetária 05L",
+        "code": "BPN 05N",
+        "description": "Batedeira planetária 05L",
+        "category": "padaria",
+        "imgSrc": "./products/205.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 206,
+        "name": "Cutter 4L Inox",
+        "code": "CR 4L",
+        "description": "Cutter 4L inox",
+        "category": "padaria",
+        "imgSrc": "./products/206.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 207,
+        "name": "Cutter 8L Inox",
+        "code": "CR 8L",
+        "description": "Cutter 8L inox",
+        "category": "padaria",
+        "imgSrc": "./products/207.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 208,
+        "name": "Extrator  de Suco Super 0,50cm",
+        "code": "EX SUPER",
+        "description": "Extrator  de suco super 0,50cm",
+        "category": "lanchonete",
+        "imgSrc": "./products/208.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 209,
+        "name": "Fritadeira Água e Óleo 24 L",
+        "code": "FCN",
+        "description": "Fritadeira água e óleo 24 L",
+        "category": "lanchonete",
+        "imgSrc": "./products/209.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 210,
+        "name": "Fritadeira Óleo 5L Inox",
+        "code": "FE10N",
+        "description": "Fritadeira Óleo 5L Inox 1 cesto",
+        "category": "lanchonete",
+        "imgSrc": "./products/210.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 211,
+        "name": "Fritadeira Dupla 2CB 10L",
+        "code": "FED20N",
+        "description": "Fritadeira Dupla 2CB 10L (5 cada) 2 cestos",
+        "category": "lanchonete",
+        "imgSrc": "./products/211.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 212,
+        "name": "Cortador Automático 260 inox",
+        "code": "FFA",
+        "description": "Cortador automático 260 inox",
+        "category": "padaria",
+        "imgSrc": "./products/212.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 213,
+        "name": "Forno de Lastro para Pizza 42cm x 40cm",
+        "code": "FLP 400D",
+        "description": "FLP 400D forno de lastro pizza 42cm F x 40cm P",
+        "category": "lanchonete",
+        "imgSrc": "./products/213.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 214,
+        "name": "Liquidificador Basculhante 15L",
+        "code": "LB 15MB",
+        "description": "Liquidificador basculhante 15L",
+        "category": "padaria",
+        "imgSrc": "./products/214.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 215,
+        "name": "Liquidificador Basculhante 25L",
+        "code": "LB 25MB",
+        "description": "Liquidificador basculhante 25L",
+        "category": "padaria",
+        "imgSrc": "./products/215.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 216,
+        "name": "Liquidificador Alta Rotação 2L",
+        "code": "LC2 ",
+        "description": "LC2 liquidificador alta rotação  2L",
+        "category": "lanchonete",
+        "imgSrc": "./products/216.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 217,
+        "name": "Liquidificador Alta Rotação 3L",
+        "code": "LC3",
+        "description": "LC2 liquidificador alta rotação  3L",
+        "category": "lanchonete",
+        "imgSrc": "./products/217.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 218,
+        "name": "Liquidificador Alta Rotação 4L",
+        "code": "LC4",
+        "description": "LC2 liquidificador alta rotação  4L",
+        "category": "lanchonete",
+        "imgSrc": "./products/218.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 219,
+        "name": "Liquidificador Alta Rotação 6L",
+        "code": "LC6",
+        "description": "LC2 liquidificador alta rotação  6L",
+        "category": "lanchonete",
+        "imgSrc": "./products/219.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 220,
+        "name": "Liquidificador Alta Rotação 8L",
+        "code": "LC8",
+        "description": "LC2 liquidificador alta rotação  8L",
+        "category": "padaria",
+        "imgSrc": "./products/220.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 221,
+        "name": "Liquidificador Alta Rotação 10L",
+        "code": "LC10",
+        "description": "LC2 liquidificador alta rotação  10L",
+        "category": "padaria",
+        "imgSrc": "./products/221.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 222,
+        "name": "Liquidificador Alta Rotação 1,5L inox",
+        "code": "LI 1,5N",
+        "description": "LC2 liquidificador alta rotação  1,5L inox",
+        "category": "lanchonete",
+        "imgSrc": "./products/222.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 223,
+        "name": "Forno Turbo Elétrico Vapor 4 bandejas",
+        "code": "MAXI CONV VP",
+        "description": "Forno turbo elétrico vapor 04 bandejas",
+        "category": "padaria",
+        "imgSrc": "./products/223.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 224,
+        "name": "Processador de Alimentos 7 discos",
+        "code": "PA07",
+        "description": "Processador de Alimentos 7 discos",
+        "category": "restaurante",
+        "imgSrc": "./products/224.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 225,
+        "name": "Moedor BC22 Inox",
+        "code": "PS22",
+        "description": "Moedor para Carnes Bc22 inox",
+        "category": "acougue",
+        "imgSrc": "./products/225.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 226,
+        "name": "Moedor Trifásico BC98 Inox",
+        "code": "PSPM98",
+        "description": "Moedor para carnes trifásico bc98 inox",
+        "category": "acougue",
+        "imgSrc": "./products/226.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 227,
+        "name": "Serra Fita de Bancada 1,74m Inox",
+        "code": "SBL",
+        "description": "Serra fita de bancada 1,74m inox",
+        "category": "acougue",
+        "imgSrc": "./products/227.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 228,
+        "name": "Serra Fita 3,15m Inox",
+        "code": "SFL315",
+        "description": "Serra fita 3,15m inox",
+        "category": "acougue",
+        "imgSrc": "./products/228.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 229,
+        "name": "Serra Fita 2,18m Inox",
+        "code": "SL218",
+        "description": "Serra fita 2,18m inox",
+        "category": "acougue",
+        "imgSrc": "./products/229.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 230,
+        "name": "Serra Fita 2,82m Inox",
+        "code": "SL282",
+        "description": "Serra fita 2,82m inox",
+        "category": "acougue",
+        "imgSrc": "./products/230.jpg",
+        "maker": "Skymsen"
+    },
+
+    {
+        "id": 231,
+        "name": "Moedor para Carnes bc10 Inox",
+        "code": "PS10",
+        "description": "Moedor para carnes bc10 inox",
+        "category": "acougue",
+        "imgSrc": "./products/231.png",
+        "maker": "Skymsen"
+    },
+
+
+    {
+        "id": 232,
+        "name": "Amassadeira Rápida Monofásica 25KG",
+        "code": "ARV25",
+        "description": "Amassadeira rápida monofásica 25KG",
+        "category": "padaria",
+        "imgSrc": "./products/232.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 233,
+        "name": "Amassadeira Semirápida 25KG",
+        "code": "ASRBV25",
+        "description": "Amassadeira semirápida 25KG",
+        "category": "padaria",
+        "imgSrc": "./products/233.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 234,
+        "name": "Chapa Churrasqueira Gás 80cm",
+        "code": "C80",
+        "description": "Chapa churrasqueira gás 80cm",
+        "category": "lanchonete",
+        "imgSrc": "./products/234.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 235,
+        "name": "Chapa Churrasqueira Gás 100cm",
+        "code": "C100",
+        "description": "Chapa churrasqueira gás 100cm",
+        "category": "lanchonete",
+        "imgSrc": "./products/235.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 236,
+        "name": "Chapa Churrasqueira Gás 120cm",
+        "code": "C120",
+        "description": "Chapa churrasqueira gás 120cm",
+        "category": "lanchonete",
+        "imgSrc": "./products/236.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 237,
+        "name": "Cilindro Laminador com Pé 39cm",
+        "code": "CL39",
+        "description": "Cilindro laminador com pé 39cm",
+        "category": "padaria",
+        "imgSrc": "./products/237.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 238,
+        "name": "Cilindro Sovador Trifásico. 50cm",
+        "code": "CS50",
+        "description": "Cilindro sovador trifásico. 50cm",
+        "category": "padaria",
+        "imgSrc": "./products/238.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 239,
+        "name": "Divisora de Massa com Pé 30",
+        "code": "DMV30",
+        "description": "Divisora de massa com pé 30",
+        "category": "padaria",
+        "imgSrc": "./products/239.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 240,
+        "name": "Fogão Extra 02 bocas Baixa Pressão",
+        "code": "E2",
+        "description": "Fogão extra 02 bocas baixa pressão",
+        "category": "restaurante",
+        "imgSrc": "./products/240.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 241,
+        "name": "Fogão extra 04 bocas Baixa Pressão",
+        "code": "E4",
+        "description": "Fogão extra 04 bocas baixa pressão",
+        "category": "restaurante",
+        "imgSrc": "./products/241.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 242,
+        "name": "Fogão extra 06 bocas Baixa Pressão",
+        "code": "E6",
+        "description": "Fogão extra 06 bocas baixa pressão",
+        "category": "restaurante",
+        "imgSrc": "./products/242.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 243,
+        "name": "Forno pra Fogão Extra",
+        "code": "F60",
+        "description": "Forno pra fogão extra",
+        "category": "restaurante",
+        "imgSrc": "./products/243.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 244,
+        "name": "Fritadeira Gás A&O Alta Pressão 30L",
+        "code": "FAOAP-30",
+        "description": "Fritadeira gás A&O alta pressão 30L",
+        "category": "restaurante",
+        "imgSrc": "./products/244.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 245,
+        "name": "Forno Turbo Lenha 10 Telas",
+        "code": "FCLT10",
+        "description": "Forno turbo lenha 10 telas",
+        "category": "padaria",
+        "imgSrc": "./products/245.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 246,
+        "name": "Forno Elétrico 110cm Inox",
+        "code": "FERI-110",
+        "description": "Forno elétrico 110cm inox",
+        "category": "padaria",
+        "imgSrc": "./products/246.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 247,
+        "name": "Forno Gás Roma 90cm Inox",
+        "code": "FIRI-90",
+        "description": "Forno gás roma 90cm inox",
+        "category": "padaria",
+        "imgSrc": "./products/247.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 248,
+        "name": "Forno Gás Infra Vermelho 110cm Inox",
+        "code": "FIRIV-110",
+        "description": "Forno gás infra vermelho 110cm inox",
+        "category": "padaria",
+        "imgSrc": "./products/248.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 249,
+        "name": "Forno Turbo Gás 05 Telas",
+        "code": "FVT5",
+        "description": "Forno turbo gás 05 telas",
+        "category": "padaria",
+        "imgSrc": "./products/249.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 250,
+        "name": "Fogão 04 BC Duplas 40x40 Baixa Pressão",
+        "code": "M6",
+        "description": "Fogão 04 bc duplas 40x40 baixa pressão",
+        "category": "restaurante",
+        "imgSrc": "./products/250.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 251,
+        "name": "Misturela 22L",
+        "code": "MTV22",
+        "description": "Misturela 22L",
+        "category": "padaria",
+        "imgSrc": "./products/251.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 252,
+        "name": "Misturela 40L.",
+        "code": "MTV40",
+        "description": "Misturela 40L.",
+        "category": "padaria",
+        "imgSrc": "./products/252.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 253,
+        "name": "Modeladora de Pão com Pé 35cm",
+        "code": "MV35",
+        "description": "Modeladora de pão com pé 35cm",
+        "category": "padaria",
+        "imgSrc": "./products/253.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 254,
+        "name": "Prensa de Sanduiche à Gás 30cm",
+        "code": "P30SG",
+        "description": "Prensa de sanduiche à gás 30cm",
+        "category": "lanchonete",
+        "imgSrc": "./products/254.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 255,
+        "name": "Refresqueira 01 Cuba 16L",
+        "code": "RV16",
+        "description": "Refresqueira 01 cuba 16L",
+        "category": "lanchonete",
+        "imgSrc": "./products/255.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 256,
+        "name": "Refresqueira 02 Cubas 32L",
+        "code": "RV216",
+        "description": "Refresqueira 02 cubas 32L",
+        "category": "lanchonete",
+        "imgSrc": "./products/256.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 257,
+        "name": "Sanduicheira Conjugada à Gás 70cm",
+        "code": "S70CG",
+        "description": "Sanduicheira conjugada  à gás 70cm",
+        "category": "lanchonete",
+        "imgSrc": "./products/257.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 258,
+        "name": "Fritadeira Elétrica Óleo 23L",
+        "code": "SFAO4",
+        "description": "Fritadeira elétrica óleo 23L",
+        "category": "lanchonete",
+        "imgSrc": "./products/258.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 259,
+        "name": "Fritadeira Elétrica Óleo 01 Cuba 5L",
+        "code": "SFE112",
+        "description": "Fritadeira elétrica óleo 01 cuba 5L",
+        "category": "lanchonete",
+        "imgSrc": "./products/259.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 260,
+        "name": "Fritadeira Elétrica Óleo 02 Cubas 10L",
+        "code": "SFE212",
+        "description": "Fritadeira elétrica óleo 02 cubas 10L",
+        "category": "lanchonete",
+        "imgSrc": "./products/260.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 261,
+        "name": "Assador de Frango à Gás 30F ",
+        "code": "SGF3",
+        "description": "Assador de frango à gás 30F",
+        "category": "restaurante",
+        "imgSrc": "./products/261.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 262,
+        "name": "Tacho Elétrico 3L",
+        "code": "TEP3",
+        "description": "Tacho elétrico 3L",
+        "category": "lanchonete",
+        "imgSrc": "./products/262.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 263,
+        "name": "Tacho Elétrico 7L",
+        "code": "TEP7",
+        "description": "Tacho elétrico 7L",
+        "category": "lanchonete",
+        "imgSrc": "./products/263.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 264,
+        "name": "Tacho à Gás 3L",
+        "code": "TGP-3",
+        "description": "Tacho à gás 3L",
+        "category": "lanchonete",
+        "imgSrc": "./products/264.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 265,
+        "name": "Tacho à Gás 7L",
+        "code": "TGP-7",
+        "description": "Tacho à gás 7L",
+        "category": "lanchonete",
+        "imgSrc": "./products/265.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 266,
+        "name": "Amassadeira Espiral Trifásica 40KG",
+        "code": "VAE40",
+        "description": "Amassadeira espiral trifásica 40KG",
+        "category": "padaria",
+        "imgSrc": "./products/266.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 267,
+        "name": "Fogão gás 02BC Alta Pressão 30x30",
+        "code": "VAP2",
+        "description": "Fogão gás 02BC alta pressão 30x30",
+        "category": "restaurante",
+        "imgSrc": "./products/267.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 268,
+        "name": "Fogão à Gás 03BC Alta Pressão 30x30",
+        "code": "VAP3",
+        "description": "Fogão à gás 03BC alta pressão 30x30",
+        "category": "restaurante",
+        "imgSrc": "./products/268.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 269,
+        "name": "Fogão à Gás 04BC Alta Pressão 30x30",
+        "code": "VAP4",
+        "description": "Fogão à gás 04BC alta pressão 30x30",
+        "category": "restaurante",
+        "imgSrc": "./products/269.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 270,
+        "name": "Batedeira Planetária 12L",
+        "code": "VBP12",
+        "description": "Batedeira planetária 12L",
+        "category": "padaria",
+        "imgSrc": "./products/270.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 271,
+        "name": "Batedeira Planetária 18L",
+        "code": "VBP18",
+        "description": "Batedeira planetária 18L",
+        "category": "padaria",
+        "imgSrc": "./products/271.jpg",
+        "maker": "Venâncio"
+    },
+
+    {
+        "id": 272,
+        "name": "Moinho de Pão Pintado 80",
+        "code": "VMPS80",
+        "description": "Moinho de pão pintado 80",
+        "category": "padaria",
+        "imgSrc": "./products/272.jpg",
+        "maker": "Venâncio"
     }
+
 ]
