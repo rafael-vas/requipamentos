@@ -1,4 +1,4 @@
-import "./style.css"
+import "./style.css";
 
 import { useEffect } from "react";
 
@@ -8,7 +8,7 @@ import { NavLink } from "../../components/NavLink";
 import { Main } from "../../components/Main";
 import { PageHeader } from "../../components/PageHeader";
 import { PageSection } from "../../components/PageSection";
-import { SelectField }  from "../../components/SelectField"
+import { SelectField } from "../../components/SelectField";
 import { TableRowHeader } from "../../components/TableRowHeader";
 import { TableContainer } from "../../components/TableContainer";
 
@@ -21,11 +21,19 @@ import {
   Trash2Icon,
 } from "lucide-react";
 
-import { Flex, Button, Table } from "@radix-ui/themes";
+import { Dialog, Flex, Button, Table } from "@radix-ui/themes";
 
 export default function MeuCarrinho({ count, setCount, info, setInfo }) {
-
-  function handleChangeQty(id, i, name, description, code, maker, imgSrc, value) {
+  function handleChangeQty(
+    id,
+    i,
+    name,
+    description,
+    code,
+    maker,
+    imgSrc,
+    value
+  ) {
     setInfo(() => info.filter((item, itemIndex) => itemIndex !== i));
 
     const newInfo = {
@@ -70,31 +78,48 @@ export default function MeuCarrinho({ count, setCount, info, setInfo }) {
       </Menu>
 
       <Main>
-        <PageHeader title="Meu Carrinho" text={"Veja os itens selecionados no seu carrinho e solicite um orçamento!"} />
+        <PageHeader
+          title="Meu Carrinho"
+          text={
+            "Veja os itens selecionados no seu carrinho e solicite um orçamento!"
+          }
+        />
         <PageSection>
           {/* <h3 className="subtitle">
             Total de itens no carrinho: {count}
           </h3> */}
           {count > 0 && (
             <Flex className="btns">
-            <a href="/home">
-              <Button className="back-btn" variant="soft" color="gray">
-                <ArrowBigLeftDash size={"1.1rem"}/>
-                <span>Voltar</span>
-              </Button>
-            </a>
-            <a href="/orcamento">
-              <Button className="next-btn" color="green">
-                <span>Avançar Orçamento</span>
-                <ArrowBigRightDash size={"1.1rem"} />
-              </Button>
-            </a>
-          </Flex>
+              <a href="/home">
+                <Button className="back-btn" variant="soft" color="gray">
+                  <ArrowBigLeftDash size={"1.1rem"} />
+                  <span>Voltar</span>
+                </Button>
+              </a>
+              <a href="/orcamento">
+                <Button className="next-btn" color="green">
+                  <span>Avançar Orçamento</span>
+                  <ArrowBigRightDash size={"1.1rem"} />
+                </Button>
+              </a>
+            </Flex>
           )}
           <TableContainer>
-              {info
-                .sort((a, b) => a.id - b.id)
-                .map(({ id, name, description, code, maker = "Não informado", imgSrc, quantity = 1 }, i) => {
+            {info
+              .sort((a, b) => a.id - b.id)
+              .map(
+                (
+                  {
+                    id,
+                    name,
+                    description,
+                    code,
+                    maker = "Não informado",
+                    imgSrc,
+                    quantity = 1,
+                  },
+                  i
+                ) => {
                   return (
                     id && (
                       <Table.Row key={i + id + code}>
@@ -105,15 +130,22 @@ export default function MeuCarrinho({ count, setCount, info, setInfo }) {
                           imgSrc={imgSrc}
                         />
                         <Table.Cell className="flex">
-
                           <SelectField
                             label={"Número"}
                             onValueChange={(value) => {
-                              handleChangeQty(id, i, name, description, code, maker, imgSrc, value);
+                              handleChangeQty(
+                                id,
+                                i,
+                                name,
+                                description,
+                                code,
+                                maker,
+                                imgSrc,
+                                value
+                              );
                             }}
                             quantity={quantity}
                           />
-
                         </Table.Cell>
                         <Table.Cell>
                           <Flex
@@ -122,22 +154,56 @@ export default function MeuCarrinho({ count, setCount, info, setInfo }) {
                             align={"center"}
                           >
                             <span className="maker">{maker}</span>
-                            <Button
-                              onClick={() => deleteItem(id, i)}
-                              className="delete-btn"
-                              variant="ghost"
-                              color="red"
-                            >
-                              <Trash2Icon size={18} />
-                            </Button>
+
+                            <Dialog.Root className="dialog">
+                              <Dialog.Trigger>
+                                <Button
+                                  // onClick={() => deleteItem(id, i)}
+                                  className="delete-btn"
+                                  variant="ghost"
+                                  color="red"
+                                >
+                                  <Trash2Icon size={18} />
+                                </Button>
+                              </Dialog.Trigger>
+                              <Dialog.Content>
+                                <Dialog.Title className="dialog-title">
+                                  Atenção!
+                                </Dialog.Title>
+                                <Dialog.Description>
+                                  Você deseja realmente excluir este item do
+                                  carrinho?
+                                </Dialog.Description>
+                                <Flex className="flex-container" gap="1">
+                                  <Dialog.Close asChild className="dialog-close">
+                                    <Button
+                                      variant="solid"
+                                      color="red"
+                                      onClick={() => deleteItem(id, i)}
+                                      className="inner-delete-btn"
+                                    >
+                                      Sim, excluir
+                                    </Button>
+                                  </Dialog.Close>
+                                  <Dialog.Close asChild className="dialog-close">
+                                    <Button
+                                      variant="soft"
+                                      color="gray"
+                                      className="inner-delete-btn"
+                                    >Não</Button>
+                                  </Dialog.Close>
+                                </Flex>
+
+                              </Dialog.Content>
+                            </Dialog.Root>
                           </Flex>
                         </Table.Cell>
                       </Table.Row>
                     )
                   );
-                })}
-            </TableContainer>
-
+                }
+              )}
+          </TableContainer>
         </PageSection>
       </Main>
     </>
