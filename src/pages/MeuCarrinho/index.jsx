@@ -25,13 +25,15 @@ import { Flex, Button, Table } from "@radix-ui/themes";
 
 export default function MeuCarrinho({ count, setCount, info, setInfo }) {
 
-  function handleChangeQty(id, i, name, code, imgSrc, value) {
+  function handleChangeQty(id, i, name, description, code, maker, imgSrc, value) {
     setInfo(() => info.filter((item, itemIndex) => itemIndex !== i));
 
     const newInfo = {
       id: id,
       name: name,
+      description: description,
       code: code,
+      maker: maker,
       imgSrc: imgSrc,
       quantity: parseInt(value),
     };
@@ -107,7 +109,7 @@ export default function MeuCarrinho({ count, setCount, info, setInfo }) {
                           <SelectField
                             label={"Número"}
                             onValueChange={(value) => {
-                              handleChangeQty(id, i, name, code, imgSrc, value);
+                              handleChangeQty(id, i, name, description, code, maker, imgSrc, value);
                             }}
                             quantity={quantity}
                           />
