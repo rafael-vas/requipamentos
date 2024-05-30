@@ -34,3 +34,16 @@
     }
 
 }
+
+.rt-Heading.dialog-title {
+    font-size: 1.625rem;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.rt-Text {
+    margin-bottom: 2.225rem;
+}
+
+.flex-container .inner-delete-btn {
+    flex: 1;
+}
