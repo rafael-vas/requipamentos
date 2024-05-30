@@ -13,6 +13,12 @@ import { FormField } from "../../components/FormField";
 
 import emailjs from "@emailjs/browser";
 
+const emailjsCodes = {
+  service: "service_kj3z58e",
+  template: "template_63m38kb",
+  account: "LP384fmXflVo7XrUf",
+}
+
 import { Home, Package, Phone, ArrowBigLeftDash } from "lucide-react";
 import { Button } from "@radix-ui/themes";
 import { SuccessMessage } from "../../components/SuccessMessage";
@@ -148,14 +154,10 @@ export default function Orcamento({ count, info }) {
 
   async function sendEmail(params) {
     return await emailjs.send(
-      // "service_51f3k2q",
-      "service_kj3z58e",
-      // "template_yuxwwmd",
-      // "template_in0gwca",
-      "template_63m38kb",
+      emailjsCodes.service,
+      emailjsCodes.template,
       params,
-      // "HLq9wQVu8t5vZ6pBP"
-      "LP384fmXflVo7XrUf"
+      emailjsCodes.account,
     );
   }
 
