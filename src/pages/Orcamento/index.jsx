@@ -13,7 +13,7 @@ import { FormField } from "../../components/FormField";
 
 import emailjs from "@emailjs/browser";
 
-import { Home, Package, Phone, ArrowBigLeftDash, Verified } from "lucide-react";
+import { Home, Package, Phone, ArrowBigLeftDash } from "lucide-react";
 import { Button } from "@radix-ui/themes";
 import { SuccessMessage } from "../../components/SuccessMessage";
 
@@ -21,11 +21,11 @@ export default function Orcamento({ count, info }) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const myPromise = new Promise((resolve, reject) => {
-    setTimeout(() => {
-      return resolve("foo");
-    }, 2000);
-  });
+  // const myPromise = new Promise((resolve, reject) => {
+  //   setTimeout(() => {
+  //     return resolve("foo");
+  //   }, 2000);
+  // });
 
   async function submitForm(e, info, userName, userNumber, userEmail) {
 
@@ -48,13 +48,22 @@ export default function Orcamento({ count, info }) {
       userMessage.push(`
           <tr>
             <td style="border-collapse: collapse; padding: 10px;">
-              ${item.name}
+              ${item.description}
             </td>
             <td style="border-collapse: collapse; padding: 10px;">
               ${item.quantity}
             </td>
             <td style="border-collapse: collapse; padding: 10px;">
               ${item.code}
+            </td>
+            <td style="border-collapse: collapse; padding: 10px;">
+              ${item.maker}
+            </td>
+            <td style="border-collapse: collapse; padding: 10px;">
+              R$
+            </td>
+            <td style="border-collapse: collapse; padding: 10px;">
+              <strong>R$</strong>
             </td>
           </tr>
       `)
@@ -75,13 +84,34 @@ export default function Orcamento({ count, info }) {
                 Produto
               </th>
               <th style="border-collapse: collapse; padding: 10px;">
-                Quantidade
+                Qtd.
               </th>
               <th style="border-collapse: collapse; padding: 10px;">
                 Código
               </th>
+              <th style="border-collapse: collapse; padding: 10px;">
+                Fabricante
+              </th>
+              <th style="border-collapse: collapse; padding: 10px;">
+                Unit.
+              </th>
+              <th style="border-collapse: collapse; padding: 10px;">
+                Total
+              </th>
             </tr>
             ${userMessage}
+            <tr>
+              <td style="border-collapse: collapse; padding: 10px;">
+                <strong>TOTAL</strong>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td style="border-collapse: collapse; padding: 10px;">
+                <strong>R$</strong>
+              </td>
+            </tr>
           </table>
 
           <br/>
@@ -96,12 +126,12 @@ export default function Orcamento({ count, info }) {
 
     try {
       setLoading(true);
-      // await sendEmail(templateParams).then((response) =>
-      //   wasEmailSent(true, response)
-      // );
-      return myPromise.then((response) =>
+      await sendEmail(templateParams).then((response) =>
         wasEmailSent(true, response)
       );
+      // return myPromise.then((response) =>
+      //   wasEmailSent(true, response)
+      // );
     } catch (error) {
       setError(true)
       wasEmailSent(false, error);
@@ -118,11 +148,14 @@ export default function Orcamento({ count, info }) {
 
   async function sendEmail(params) {
     return await emailjs.send(
-      "service_51f3k2q",
+      // "service_51f3k2q",
+      "service_kj3z58e",
       // "template_yuxwwmd",
-      "template_in0gwca",
+      // "template_in0gwca",
+      "template_63m38kb",
       params,
-      "HLq9wQVu8t5vZ6pBP"
+      // "HLq9wQVu8t5vZ6pBP"
+      "LP384fmXflVo7XrUf"
     );
   }
 
