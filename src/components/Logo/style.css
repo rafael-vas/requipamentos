@@ -9,6 +9,10 @@
 
 .header .logo-link .logo-img {
     max-width: 13.375rem; /* 70px */
+
+    @media screen and (max-width: 792px) {
+        padding: .225rem;
+    }
 }
 
 .header .logo-link .logo-txt {

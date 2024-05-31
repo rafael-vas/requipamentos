@@ -9,14 +9,12 @@
     /* border-bottom-left-radius: 6rem; */
     /* border-bottom-right-radius: 3rem; */
     @media screen and (max-width: 792px) {
-        height: auto;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        padding: .625rem 2rem;
+        padding: .925rem 2rem;
+        height: fit-content;
     }
 
-    @media screen and (max-width: 325px) {
-        padding: 0.425rem 1.225rem;
+    @media screen and (max-width: 425px) {
+        padding: 1.025rem 2rem;
     }
 }
 
